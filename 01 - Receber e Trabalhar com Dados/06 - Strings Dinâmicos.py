@@ -1,3 +1,5 @@
+# Strings Dinâmicos
+
 nome = 'Emanuel'
 email = 'emanuel.santos@gmail.com'
 
