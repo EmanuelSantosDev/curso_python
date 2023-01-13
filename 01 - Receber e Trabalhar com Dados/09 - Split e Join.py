@@ -1,5 +1,6 @@
 # split()
 
+
 frase = "Olá, seja bem-vindo à este treinamento"
 
 print(frase.split())
@@ -23,7 +24,9 @@ print(nomes.split(','))
 print(nomes.split(',', 3))
 # ['Emanuel', ' Cecília', ' Joaquina', ' Ana, Bruna,Carol']
 
+
 # join() para concatenar strings
+
 
 hashtags = '#python #javascript #java #programação #sql #html'
 hashtags_separadas = hashtags.split()
