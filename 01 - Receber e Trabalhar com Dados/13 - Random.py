@@ -5,10 +5,10 @@ import random
 # gera um valor aleatório de 0.0 a 1.0
 print(random.random())
 
-# gera um valor decimal de VALOR MÍNIO ao VALOR MÁXIMO com NÚMEROS DECIMAIS
+# gerando uma saída de VALOR MÍNIMO ao VALOR MÁXIMO com NÚMEROS DECIMAIS
 print(random.uniform(4, 10))
 
-# gera um valor decimal de VALOR MÍNIO ao VALOR MÁXIMO com NÚMEROS INTEIROS
+# gerando uma saída de de VALOR MÍNIMO ao VALOR MÁXIMO com NÚMEROS INTEIROS
 print(round(random.randint(4, 10)))
 
 # selecionamento uma opção aleatória dentro de uma LISTA
