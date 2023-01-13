@@ -2,13 +2,23 @@
 
 # 01 - Descobrir o tipo de dado se é float, int, etc...
 
+# a = 5
+# b = 5.5
+# c = 'Hello World'
+# d = True
+
 # ================================================================
 
 # 02 - Unpacking
 
 # ================================================================
 
-# 03 - Print de múltiplas linhas
+# 03 - Print de Múltiplas Linhas
+
+# Até a pé nós iremos
+# para o que der e vier
+# mas o certo é que nós estaremos
+# com o Grêmio onde o Grêmio estiver!
 
 # ================================================================
 
@@ -20,11 +30,16 @@
 
 # ================================================================
 
-# 05 - Comprimento de uma String
+# 05 - Comprimento de uma String (x25)
+
+# nome = 'Emanuel Olivio dos Santos'
 
 # ================================================================
 
 # 06 - Strings Dinâmicos
+
+# nome = 'Emanuel'
+# idade = 36
 
 # ================================================================
 
@@ -38,6 +53,8 @@
 # ENCONTRAR O ÍNDICE de determinados caracteres
 # TROCAR uma cadeia de strings por outra
 
+# curso = '   Curso de Python   '
+
 # ================================================================
 
 # 08 - Slice utilizando índices
@@ -47,26 +64,27 @@
 # de um índice INICIAL até um índice FINAL
 # de um índice INICIAL até o ÚLTIMO ÍNDICE
 # de X ÍNDICES NEGATIVOS até o ÚLTIMO ÍNDICE
-# até X índices ANTES DO ÚLTIMO até o ÍNDICE INICIAL
+# X índices NEGATIVOS até o ÍNDICE INICIAL
 # de um índice INICIAL até o ÚLTIMO ÍNDICE NEGATIVO
+
+# frase = 'O rato roeu a roupa do rei de roma'
 
 # ================================================================
 
 # 09 - Separando e Juntando Listas
 
-# frase = "Olá, seja bem-vindo à este treinamento"
 # separar por ' '
 # separar por ','
 # separar por '-'
+# frase = "Olá, seja bem-vindo à este treinamento"
 
-# nomes = 'Emanuel, Cecília, Joaquina, Ana, Bruna,Carol'
 # separar especificando um número máximo de ocorrências
+# nomes = 'Emanuel, Cecília, Joaquina, Ana, Bruna, Carol'
 
-# hashtags = 'python javascript java programação sql html'
-# hashtags_separadas = hashtags.split()
 # juntar com ','
 # juntar com '.'
 # juntar com ' '
+# hashtags = 'python javascript java programação sql html'
 
 # ================================================================
 
@@ -120,7 +138,7 @@
 #     print(total)
 
 
-# calcular_preco_combo(30, 'vinte reais')
+# calcular_preco_combo(30, 'vinte e dois')
 # print('Programa finalizado')
 
 # ================================================================
