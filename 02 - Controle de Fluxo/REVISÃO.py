@@ -8,20 +8,18 @@
 - Treinar operador NOT '''
 
 
-''' 
-03 - OPERADORES DE IDENTIDADE E IGUALDADE
+''' 03 - OPERADORES DE IDENTIDADE E IGUALDADE
 --------------------------------------------------------------------------
 - Operador 'is' comparada a IGUALDADE DE UM OBJETO
 - Operador '==' compara a IGUALDADE DE VALORES '''
 
 
-'''  04 - CONVER~SAO DE TIPOS
+''' 04 - CONVER~SAO DE TIPOS
 --------------------------------------------------------------------------
 - Treinar apenas a conversão para Strings '''
 
 
-''' 
-05 - CONDICIONSI IF, ELIF e ELSE
+''' 05 - CONDICIONSI IF, ELIF e ELSE
 --------------------------------------------------------------------------
 - Treinar apenas o Chaining (encadeamento) '''
 
