@@ -14,7 +14,7 @@
 - Operador '==' compara a IGUALDADE DE VALORES '''
 
 
-''' 04 - CONVER~SAO DE TIPOS
+''' 04 - CONVERSÃO DE TIPOS
 --------------------------------------------------------------------------
 - Treinar apenas a conversão para Strings '''
 
@@ -56,8 +56,8 @@ Exemplos de iteráveis:
 ''' 10 - LOOPE WHILE
 --------------------------------------------------------------------------
 - utilizando um contador
-- repetir enquanto uma condição não for satisfeita
-- loop DECRESCENTE '''
+- loop DECRESCENTE 
+- repetir enquanto uma condição não for satisfeita '''
 
 
 ''' 11 - INSTRUÇÃO PASS
