@@ -1,4 +1,6 @@
-# retornando o TOTAL da operação
+# Return
+
+
 def soma(a, b):
     total = a + b
     return total

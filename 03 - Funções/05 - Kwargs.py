@@ -1,15 +1,13 @@
 # **kwargs (Keyword Arguments)
-# São funções com nº ilimitado de argumentos nomeados
 
+
+# São funções com nº ilimitado de argumentos nomeados
 def concatenar(**palavras):
     frase = ''
     for palavra in palavras.values():
         frase += palavra + ' '
     print(frase)
-
-
-# O Grêmio vai sair campeão
-concatenar(a='O', b='Grêmio', c='vai', d='sair', e='campeão')
+concatenar(a='O', b='Grêmio', c='vai', d='sair', e='campeão') # O Grêmio vai sair campeão
 
 
 '''

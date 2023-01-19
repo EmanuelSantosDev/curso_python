@@ -1,3 +1,6 @@
+# Funções
+
+
 # Função SEM PARÂMETROS
 def dar_boas_vindas():
     print('Seja bem-vindo!!!')

@@ -1,5 +1,6 @@
 # Loop While
 
+
 # utilizando um contador
 tentativas = 0
 while tentativas < 3:
@@ -11,11 +12,13 @@ Tente Novamente
 Tente Novamente
 '''
 
+
 # repetir enquanto uma condição não for satisfeita
 senha = ''
 while senha != 1234:
     senha = int(input('Digite sua senha: '))
 print('LOGIN EFETUADO COM SUCESSO')
+
 
 # repetir enquanto o usuário não preencher o dado solicitado
 nome = ''
@@ -24,6 +27,7 @@ while nome == '':
     if nome == '':
         print('DADO NÃO DIGITAVO. Tente novamente...')
 print(f'{nome.upper()} seu cadastro foi REALIZADO COM SUCESSO!!!')
+
 
 # loop DECRESCENTE
 contador = 10

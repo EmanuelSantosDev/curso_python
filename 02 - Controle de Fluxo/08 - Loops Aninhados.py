@@ -1,12 +1,13 @@
 # Loops Aninhados
 
+
+# Loops Aninhas de STRINGS
 paises_america_sul = ['Brasil', 'Argentinha', 'Chile', 'Colômbia']
 estacoes_do_ano = ['Verão', 'Inverno', 'Outono', 'Primavera']
 
 for pais in paises_america_sul:
     for estacao in estacoes_do_ano:
         print(f'{pais} => {estacao}')
-
 '''
 Brasil => Verão
 Brasil => Inverno
@@ -26,11 +27,11 @@ Colômbia => Outono
 Colômbia => Primavera
 '''
 
-# trabalhando com RANGE
+
+# Loops Aninhados de RANGE
 for x in range(1, 6):
     for y in range(1, 11):
         print(f'x = {x} | y = {y}')
-
 '''
 x = 1 | y = 1
 x = 1 | y = 2

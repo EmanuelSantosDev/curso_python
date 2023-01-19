@@ -1,6 +1,7 @@
-'''
-Instrução PASS
+# Instrução PASS
 
+
+'''
 - Cria um espaço reservado para código futuro
 - Evita que o interpretador fique acusando erro
 '''

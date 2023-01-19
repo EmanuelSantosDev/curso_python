@@ -30,15 +30,15 @@ else:
     print('Pode entrar na sala')
 
 
-'''
-Operando com um RANGE DE VALORES
+# Operando com um RANGE DE VALORES
 
+
+'''
 A velocidade máxima para essa rua é de 50km/h
 * Cruzou entre 51 e 60, levou multa de 2 pontos
 * Cruzou entre 61 e 75, levou multa de 3 pontos
 * Cruzou acima de 75, levou multa de 7 pontos
 '''
-
 velocidade = 51
 if velocidade <= 50:
     print('Está no limite permitido')

@@ -1,5 +1,6 @@
 # Funções de Strings
 
+
 nome_do_curso = '   Edição de Vídeo   '
 
 print(nome_do_curso.upper())
