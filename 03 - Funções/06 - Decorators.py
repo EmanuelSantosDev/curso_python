@@ -7,17 +7,22 @@
 '''
 
 
-def meu_decorator(funcao):
-    def wrapper():
-        print('Antes')
-        funcao()
-        print('Depois')
+def texto(funcao):
+    def wrapper(a, b):
+        print('PRIMEIRO')
+        funcao(a, b)
+        print('SEGUNDO')
     return wrapper
 
 
-@meu_decorator
-def parabenizar():
-    print('Parabéns')
+@texto
+def soma(a, b):
+    print(a+b)
 
 
-parabenizar()
+soma(5, 10)
+'''
+PRIMEIRO
+15
+SEGUNDO
+'''

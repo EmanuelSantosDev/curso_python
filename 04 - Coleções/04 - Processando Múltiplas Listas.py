@@ -37,6 +37,7 @@ Encontramos o Titulo 3 com a descrição: Descrição 3
 Encontramos o Titulo 4 com a descrição: None
 '''
 
+
 # Lista com Quantidade de Itens Diferentes (sem utilizar o zip_longest)
 produtos4 = ['Produto 1', 'Produto 2', 'Produto 3', 'Produto 4', 'Produto 5']
 precos4 = [250, 150, 220]

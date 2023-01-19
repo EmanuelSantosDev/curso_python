@@ -79,4 +79,18 @@
 
 # MÓDULO 3 - FUNÇÕES
 
+# Parâmetro com Valor Padrão
+# Parâmetro com Valor Padrão deve ser declaro ao final (conceito)
+# Argumentos Posicionais x Argumentos Nomeados (conceito)
+# 0 argumentos posicionais + 2 argumentos nomeados
+# 1 argumento posicional + 1 argumento nomeado
+# Args
+# Kwargs
+# Função com = Argumento Posicional + Args + Kwargs
+# Decorators
+
+# ============================================================================================
+
+# MÓDULO 4 - COLEÇÕES
+
 #

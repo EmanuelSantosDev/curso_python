@@ -16,6 +16,7 @@ iPhone está no valor de R$ 5000
 # Argumentos Nomeados
 
 
+# invocando a função passando argumentos nomeados
 exibir_preco(preco=5000, nome_produto='iPhone')
 
 
@@ -23,10 +24,14 @@ exibir_preco(preco=5000, nome_produto='iPhone')
 # TypeError: quantidade() takes 0 positional arguments but 2 were given
 def quantidade(*, a, b):
     print(a + b)
+
+
 quantidade(2, 5)
 
 
 # / TypeError: multiplicacao() takes 1 positional argument but 2 were given
 def multiplicacao(x, *, y):
     print(x * y)
+
+
 multiplicacao(4, 3)
