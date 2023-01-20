@@ -2,10 +2,9 @@
 
 
 '''
-- possui uma quantidade 'x' de argumentos dinâmicos
-- em alguns casos não sabemos quantos argumentos a função irá receber
-- os argumentos INDEFINIDOS são passados no formato de tuplas(tipo de lista)
-- os argumentos que SIM, já estão definidos, precisam ser nomeados
+- em alguns casos não sabemos QUANTOS argumentos a função irá receber
+- esta quantidade X de argumentos são passados no formato de TUPLAS
+- os DEMAIS ARGUMETNOS devem ser NOMEADOS
 '''
 
 

@@ -1,20 +1,29 @@
 # **kwargs (Keyword Arguments)
 
 
-# São funções com nº ilimitado de argumentos nomeados
+'''
+- são funções com nº ilimitado de argumentos nomeados
+- enquanto os *args são passados como tuplas, os *kwargs são passados como DICIONÁRIO
+'''
+
+
 def concatenar(**palavras):
     frase = ''
     for palavra in palavras.values():
         frase += palavra + ' '
     print(frase)
-concatenar(a='O', b='Grêmio', c='vai', d='sair', e='campeão') # O Grêmio vai sair campeão
+
+
+concatenar(a='O', b='Grêmio', c='vai', d='sair',
+           e='campeão')  # O Grêmio vai sair campeão
 
 
 '''
-Função com:
+Mesclando uma Função com:
 
-- número ilimitado de argumentos POSICIONAIS
-- número ilimitado de argumentos NOMEADOS
+- argumento posicional de QUANTIDADE DEFINIDA
+- argumentos POSICIONAIS de quantidade X
+- argumentos NOMEADOS de quantidade X
 '''
 
 
