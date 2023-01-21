@@ -45,7 +45,6 @@
 # Números Aleatórios (gerar um valor aleatório de 0.0 a 1.0)
 # Números Aleatórios (com VALOR MÍNIMO e VALOR MÁXIMO e NÚMEROS DECIMAIS)
 # Números Aleatórios (com VALOR MÍNIMO e VALOR MÁXIMO e NÚMEROS INTEIROS)
-print('parei aqui')
 # Números Aleatórios (selecionar uma OPÇÃO ALEATÓRIA dentro de uma LISTA)
 # Números Aleatórios (selecionar de FORMA ELEATÓRIA E MÚLTIPLA  dentro de uma LISTA)
 # Números Aleatórios (EMBARALHAR os ítems de uma lista)
