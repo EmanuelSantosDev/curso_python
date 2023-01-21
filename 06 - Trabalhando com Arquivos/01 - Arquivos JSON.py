@@ -17,7 +17,7 @@ carros = [
 
 # converte um objeto python em um objeto JSON equivalente
 carros_json = json.dumps(carros)
-Path('04 - Coleções\carros.json').write_text(carros_json)
+Path('06 - Trabalhando com Arquivos\carros.json').write_text(carros_json)
 
 
 # -----------------------------------------------------------
@@ -26,7 +26,7 @@ Path('04 - Coleções\carros.json').write_text(carros_json)
 
 
 # lendo o arquivo 'carros.json'
-arquivo_carros_json = Path('04 - Coleções\carros.json').read_text()
+arquivo_carros_json = Path('06 - Trabalhando com Arquivos\carros.json').read_text()
 
 # analisando a string JSON e convertendo em um dicionário Python
 carros_dicionario = json.loads(arquivo_carros_json)
@@ -41,7 +41,7 @@ print(carros_dicionario[1]['Marca'] + ' ' + str(carros_dicionario[1]['Preco']))
 # -----------------------------------------------------------
 
 
-arquivo_pikachu = Path('04 - Coleções\pikachu.json').read_text()
+arquivo_pikachu = Path('06 - Trabalhando com Arquivos\pikachu.json').read_text()
 arquivo_pikachu_convertido = json.loads(arquivo_pikachu)
 print(arquivo_pikachu_convertido['abilities'][1]['ability']['name'])
 # lightning-rod
