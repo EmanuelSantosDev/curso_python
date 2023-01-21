@@ -2,17 +2,19 @@
 
 
 '''
+ESTRUTURA 'WITH'
+
+
+- facilita o trabalho com arquivos, pois fecha o mesmo automaticamente
+- sem 'with', o código poderia dar bug antes de chegar na linha que fecha 
+  o arquivo e o mesmo permaneceria aberto
+- "com esse arquivo cujo apelido é XXXX eu quero..."
+
+
 COMO CRIAR E MODIFICAR ARQUIVOS
 
-'r' -> usado para LER algo
 'w' -> usado para ESCREVER algo (iniciar um novo arquivo)
-'r+' -> para LER e ESCREVER algo
 'a' -> usado para acrescentar algo
+'r' -> usado para LER algo
+'r+' -> para LER e ESCREVER algo
 '''
-
-
-import os
-
-
-with open('celulares.txt', 'w') as meu_arquivo:
-    meu_arquivo.write('Celular 1')
