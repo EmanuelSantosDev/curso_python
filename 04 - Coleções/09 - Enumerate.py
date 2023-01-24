@@ -9,7 +9,7 @@
 
 
 # enumerate() sobre um range()
-# permite nos passar o valor do índice inical (neste caso, foi o '0')
+# permite nos passar o valor do índice inicial (neste caso, foi o '0')
 for indice, numero in enumerate(range(32, 43), 0):
     print(indice, numero)
     if indice == 9:

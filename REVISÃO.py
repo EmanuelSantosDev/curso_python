@@ -58,7 +58,7 @@
 # Operadores Booleanos (not)
 # Operadores de Identidade e Igualdade
 # Conversão de Tipos
-# Condicionais (padrão)
+# Condicionais (IF, ELIF e ELSE)
 # Condicionais com Chaining (encadeamento)
 # Operador Ternário
 # Loop For (iterar sobre uma lista)
@@ -67,7 +67,7 @@
 # Loop For (iterar uma QUANTIDADE de vezes com valores INICIAL e FINAL e SALTOS)
 # Loops Aninhados (iterar sobre DUAS LISTAS)
 # Loops Aninhados (iterar sobre DOIS RANGES)
-# Iteráveis são dados que nos permite passar por cada valor dentro dele
+# Iteráveis são estruturas de dados que nos permitem passar por cada valor dentro deles
 # Loop While (utilizando um contador)
 # Loop While (loop DECRESCENTE)
 # Loop While (repetir enquanto uma condição não for satisfeita)
@@ -93,4 +93,70 @@
 
 # MÓDULO 4 - COLEÇÕES
 
-#
+# Listas - [CONCEITO] as listas no Python são dinâmicas (aceitam qualquer tipo de dado)
+# Listas - passar um valor e descobrir o índice do mesmo dentro da lista
+# Listas - criar uma lista através da múltiplicação (números e strings)
+# Listas - criar uma lista através de um range
+# Listas - criar uma lista através de um range e com intervalos
+# Listas - criar uma lista a partir de uma string
+# Listas - criar uma MATRIZ
+# Manipulação de Listas - adicionar novo item ao final
+# Manipulação de Listas - adicionar novo item à uma lista indicando seu índice
+# Manipulação de Listas - unir duas listas criando uma nova lista
+# Manipulação de Listas - unir duas listas extendendo uma nova já existente
+# Manipulação de Listas - remover item da lista com base no seu índice e printar o valor extraído
+# Manipulação de Listas - remover item da lista informando seu valor
+# Manipulação de Listas - remover item da lista informando seu índice
+# Manipulação de Listas - remover um intervalo de items da lista informando seu índice
+# Manipulação de Listas - contar quantas vezes um valor se repete em uma lista
+# Manipulação de Listas - resetar uma lista excluindo todos os seus valores
+# Ordenar Listas - ordem crescente
+# Ordenar Listas - ordem decrescente
+# Ordenar Listas - inveter os valores de uma lista
+# Processando Múltiplas Listas - iterar sobre duas listas simultaneamente
+# Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (descartando as posições faltantes)
+# Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (considerando as posições diferentes como 'none')
+# Dicionário - [CONCEITO] Utiliza o padrão 'chave:valor'
+# Dicionário - criar um dicionário manualmente
+# Dicionário - criar um dicionário utilizando um método apropriado
+# Dicionário - acessar uma propriedade de um dicionário
+# Dicionário - descobrir quais são as PROPRIEDADES disponiveis em um dicionário
+# Dicionário - descobrir quais são os VALORES disponiveis em um dicionário
+# Dicionário - descobrir quais são as as CHAVES + VALORES disponiveis em um dicionário (nos devolve uma lista de tuplas)
+# Dicionário - iterar sobre um dicionário
+# Tuplas - [CONCEITO] semelhante às listas, porém, não é possivel alterar os valores depois de terem sido criadas
+# Tuplas - acessar os valores de uma tupla através do seu índice
+# Tuplas - unir duas tuplas
+# Arrays - [CONCEITO] podemos armazenar apenas ITEMS DO MESMO TIPO. Esta é sua diferença em relação às listas.
+# Arrays - [CONCEITO] as operações são basicamente iguais às das listas
+# Arrays - [CONCEITO] utiliza-se Type Code para definição do tipo:
+# Arrays - criar um array de inteiros
+# Arrays - criar um array de strings
+# Arrays - criar um array de floats
+# Operando com Range em Coleções - [CONCEITO] além dos loops pode ser utilizado para criar listas mais rapidamente
+# Operando com Range em Coleções - criar uma lista utilizando range
+# Enumerate - [CONCEITO] é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
+# Enumerate - [CONCEITO] permite receber o valor inicial do índice
+# Enumerate - utilizar o enumerate sobre uma lista
+# Ordenar Coleções através de Propriedades - criar uma lista de dicionários
+# Ordenar Coleções através de Propriedades - ordenar utilizando diferentes chaves
+# Ordenar Coleções através de Propriedades - criar uma lista de tuplas
+# Ordenar Coleções através de Propriedades - ordenar utilizando o índice de seus items
+# Map - [CONCEITO] passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
+# Map - aplicar sobre uma lista
+# Map - aplicar sobre uma lista de listas
+# Filter - [CONCEITO] processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
+# Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
+# Set - [CONCEITO] é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
+# Set - criar um Set manualmente
+# Set - criar um Set a partir de uma lista
+# Set - adicionar novos valores ao Set
+# Set - entre duas listas de dados, obter um conjunto com os dados que NÃO se repetem
+# Set - entre duas listas de dados, obter um conjunto apenas com os dados que se REPETEM
+# Set - entre duas listas de dados, obter a união dos dois conjuntos de dados
+# Conversão de Tipo entre Coleções - converter uma STRING em uma LISTA
+# Conversão de Tipo entre Coleções - converter uma STRING em um SET
+# Conversão de Tipo entre Coleções - converter uma STRING em uma TUPLA
+# Conversão de Tipo entre Coleções - converter um RANGE em uma LISTA
+# Conversão de Tipo entre Coleções - converter uma LISTA em um SET
+# Conversão de Tipo entre Coleções - converter uma LISTA em uma TUPLA
