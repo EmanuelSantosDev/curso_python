@@ -3,6 +3,12 @@
 # ------------------------------------------------------------------------------------
 
 
+'''
+-> deff'__init__()' - inicializa  a classe
+-> 'self' - faz referência à um atributo que pertence ao objeto que está sendo criado
+'''
+
+
 class Computador:
     def __init__(self, marca, memora_ram, placa_de_video):
         self.marca = marca
