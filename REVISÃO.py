@@ -160,3 +160,21 @@
 # Conversão de Tipo entre Coleções - converter um RANGE em uma LISTA
 # Conversão de Tipo entre Coleções - converter uma LISTA em um SET
 # Conversão de Tipo entre Coleções - converter uma LISTA em uma TUPLA
+
+# ============================================================================================
+
+# MÓDULO 5 - TRABALHANDO COM ARQUIVOS
+
+# JSON - criar um arquivo JSON
+# JSON - ler um arquivo JSON
+# JSON - Desafio Pikachu => encontrar e exibir na tela a 'ability' 'lightning-rod'
+# ARQUIVOS TXT E OUTROS - criar um novo arquivo
+# ARQUIVOS TXT E OUTROS - acrescentar individualmente informação em um arquivo
+# ARQUIVOS TXT E OUTROS - acrescentar informações em um arquivo a partir de uma lista
+# ARQUIVOS TXT E OUTROS - ler um arquivo e imprimir dados no terminal
+# ARQUIVOS TXT E OUTROS - ler um arquivo e acrescentar dados
+# ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
+
+# ============================================================================================
+
+# MÓDULO6 - TRATAMENTO DE ERROS E EXCESSÕES
