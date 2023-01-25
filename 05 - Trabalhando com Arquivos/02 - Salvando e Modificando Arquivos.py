@@ -112,3 +112,15 @@ with open('nomes.txt', 'r+', newline='', encoding='utf-8') as arquivo:
     for linha in arquivo:
         print(linha)
     arquivo.write('FINAL DA LISTA' + os.linesep)
+
+
+# ------------------------------------------------------------------------------------
+# Abrindo Vários Arquivos de Formatos Diferentes Simultaneamente
+# ------------------------------------------------------------------------------------
+
+
+arquivos = ['foto.jpg', 'video.mp4', 'musica.mp3', 'tabela.xlsx']
+
+for arquivo in arquivos:
+    with open(arquivo, 'w', encoding='utf-8') as arquivo:
+        pass
