@@ -19,16 +19,17 @@ ESTRUTURA 'WITH'
 - facilita o trabalho com arquivos, pois fecha o mesmo automaticamente
 - sem 'with', o código poderia dar bug antes de interpretar a linha que fecha 
   o mesmo que permaneceria aberto
-- a Estrutura With diz ao programa: "com esse arquivo cujo apelido é XXXX eu quero..."
+- a Estrutura With diz ao programa: "com esse arquivo, cujo objetivo é XXXX e
+  apelido é XXXX eu quero..."
 
 
 OBJETIVOS AO ABRIR O ARQUIVO
 
 
+'w'  -> usado para ESCREVER um novo arquivo ou SOBRESCREVER caso já exista 
+'a'  -> usado para ACRESCENTAR informação à um arquivo
 'r'  -> usado para LER o arquivo
 'r+' -> usado para LER e ESCREVER no arquivo
-'w'  -> usado para ESCREVER um novo arquivo ou SOBRESCREVER caso já exista 
-'a'  -> usado para ACRESCENTAR informação ao arquivo
 '''
 
 
@@ -37,7 +38,7 @@ OBJETIVOS AO ABRIR O ARQUIVO
 # ------------------------------------------------------------------------------------
 
 
-# o módulo OS fornece funções para interagir com o sistema operacional.
+# o módulo 'OS' fornece funções para interagir com o sistema operacional.
 import os
 
 
@@ -46,47 +47,8 @@ import os
 # ------------------------------------------------------------------------------------
 
 
-# se o arquivo já existir ele SOBRESCREVE o conteúdo
-# se o arquivo não existir, ele CRIA um novo arquivo
-
-
-# with open('06 - Trabalhando com Arquivos/senha.txt', 'w') as arquivo:
-#     senha = arquivo.write('987654')
-
-
-# ------------------------------------------------------------------------------------
-# 'r' => read
-# ------------------------------------------------------------------------------------
-
-
-# método read() para arquivos simples
-# ex: senhas, tokens, informações únicas, etc...
-# ele até consegue ler um arquivo de várias linhas, mas NÃO consegue ISOLAR as linhas
-
-
-# with open('06 - Trabalhando com Arquivos/email.txt', 'r') as arquivo:
-#     email = arquivo.read()
-#     print(email)
-    # programadorpython2023@gmail.com
-
-
-# método readlines() para arquivos maiores
-# nos devolve uma lista em que cada item da lista é uma linha
-# utilizamos um terceiro parâmetro, o 'encoding' para corrigir erros de impressão
-
-
-# with open('06 - Trabalhando com Arquivos/mensagem.txt', 'r', encoding='utf-8') as arquivo:
-#     mensagem = arquivo.readlines()
-#     print(mensagem)
-#     '''
-#     ['Prezados,\n', '\n', 'O faturamento desse mÃªs foi de: R$15.000\n', '\n', 
-#     'Qualquer dÃºvida que tiverem, Ã© sÃ³ falar.\n', '\n', 'Att.,\n', 'Lira']
-#     '''
-#     for linha in mensagem:
-#         if 'faturamento' in linha:
-#             print(linha)  # O faturamento desse mês foi de: R$15.000
-
-
+with open('nomes.txt', 'w', newline='', encoding='utf-8') as arquivo:
+    arquivo.write('Kaká' + os.linesep)
 
 
 # ------------------------------------------------------------------------------------
@@ -94,5 +56,59 @@ import os
 # ------------------------------------------------------------------------------------
 
 
-# with open('06 - Trabalhando com Arquivos/email.txt', 'a') as arquivo:
-#     arquivo.write('\nemanuel.santos@gmail.com')
+# 'newline='' é usado para criar uma nova linha simples (sem isso seria DUPLA)
+# 'os.linesep' é usado para separar (ou melhor, encerrar) linhas
+
+
+with open('nomes.txt', 'a', newline='', encoding='utf-8') as arquivo:
+    arquivo.write('Suárez' + os.linesep)
+
+nomes = ['Cristiano Ronaldo', 'Messi', 'Cafú', 'Rivaldo', 'Neymar']
+
+with open('nomes.txt', 'a', newline='', encoding='utf-8') as arquivo:
+    for nome in nomes:
+        arquivo.write(nome + os.linesep)
+
+
+# números precisam ser convertidos para o formato de string
+
+
+numeros = [10, 20, 30, 40, 50]
+with open('nomes.txt', 'a', newline='', encoding='utf-8') as arquivo:
+    for numero in numeros:
+        arquivo.write(str(numero) + os.linesep)
+
+
+# ------------------------------------------------------------------------------------
+# 'r' => read
+# ------------------------------------------------------------------------------------
+
+
+with open('nomes.txt', 'r', encoding='utf-8') as arquivo:
+    for linha in arquivo:
+        print(linha)
+'''
+Kaká
+Suárez
+Cristiano Ronaldo
+Messi
+Cafú
+Rivaldo
+Neymar
+10
+20
+30
+40
+50
+'''
+
+
+# ------------------------------------------------------------------------------------
+# 'r+' => read + append
+# ------------------------------------------------------------------------------------
+
+
+with open('nomes.txt', 'r+', newline='', encoding='utf-8') as arquivo:
+    for linha in arquivo:
+        print(linha)
+    arquivo.write('FINAL DA LISTA' + os.linesep)
