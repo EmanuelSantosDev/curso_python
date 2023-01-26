@@ -93,7 +93,7 @@
 
 # MÓDULO 4 - COLEÇÕES
 
-# Listas - [CONCEITO] as listas no Python são dinâmicas (aceitam qualquer tipo de dado)
+# Listas - [C] as listas no Python são dinâmicas (aceitam qualquer tipo de dado)
 # Listas - passar um valor e descobrir o índice do mesmo dentro da lista
 # Listas - criar uma lista através da múltiplicação (números e strings)
 # Listas - criar uma lista através de um range
@@ -116,7 +116,7 @@
 # Processando Múltiplas Listas - iterar sobre duas listas simultaneamente
 # Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (descartando as posições faltantes)
 # Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (considerando as posições diferentes como 'none')
-# Dicionário - [CONCEITO] Utiliza o padrão 'chave:valor'
+# Dicionário - [C] Utiliza o padrão 'chave:valor'
 # Dicionário - criar um dicionário manualmente
 # Dicionário - criar um dicionário utilizando um método apropriado
 # Dicionário - acessar uma propriedade de um dicionário
@@ -124,30 +124,30 @@
 # Dicionário - descobrir quais são os VALORES disponiveis em um dicionário
 # Dicionário - descobrir quais são as as CHAVES + VALORES disponiveis em um dicionário (nos devolve uma lista de tuplas)
 # Dicionário - iterar sobre um dicionário
-# Tuplas - [CONCEITO] semelhante às listas, porém, não é possivel alterar os valores depois de terem sido criadas
+# Tuplas - [C] semelhante às listas, porém, não é possivel alterar os valores depois de terem sido criadas
 # Tuplas - acessar os valores de uma tupla através do seu índice
 # Tuplas - unir duas tuplas
-# Arrays - [CONCEITO] podemos armazenar apenas ITEMS DO MESMO TIPO. Esta é sua diferença em relação às listas.
-# Arrays - [CONCEITO] as operações são basicamente iguais às das listas
-# Arrays - [CONCEITO] utiliza-se Type Code para definição do tipo:
+# Arrays - [C] podemos armazenar apenas ITEMS DO MESMO TIPO. Esta é sua diferença em relação às listas.
+# Arrays - [C] as operações são basicamente iguais às das listas
+# Arrays - [C] utiliza-se Type Code para definição do tipo:
 # Arrays - criar um array de inteiros
 # Arrays - criar um array de strings
 # Arrays - criar um array de floats
-# Operando com Range em Coleções - [CONCEITO] além dos loops pode ser utilizado para criar listas mais rapidamente
+# Operando com Range em Coleções - [C] além dos loops pode ser utilizado para criar listas mais rapidamente
 # Operando com Range em Coleções - criar uma lista utilizando range
-# Enumerate - [CONCEITO] é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
-# Enumerate - [CONCEITO] permite receber o valor inicial do índice
+# Enumerate - [C] é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
+# Enumerate - [C] permite receber o valor inicial do índice
 # Enumerate - utilizar o enumerate sobre uma lista
 # Ordenar Coleções através de Propriedades - criar uma lista de dicionários
 # Ordenar Coleções através de Propriedades - ordenar utilizando diferentes chaves
 # Ordenar Coleções através de Propriedades - criar uma lista de tuplas
 # Ordenar Coleções através de Propriedades - ordenar utilizando o índice de seus items
-# Map - [CONCEITO] passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
+# Map - [C] passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
 # Map - aplicar sobre uma lista
 # Map - aplicar sobre uma lista de listas
-# Filter - [CONCEITO] processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
+# Filter - [C] processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
 # Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
-# Set - [CONCEITO] é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
+# Set - [C] é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
 # Set - criar um Set manualmente
 # Set - criar um Set a partir de uma lista
 # Set - adicionar novos valores ao Set
@@ -177,3 +177,19 @@
 # ============================================================================================
 
 # MÓDULO6 - TRATAMENTO DE ERROS E EXCESSÕES
+
+# [C] Logging - é uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
+# [C] ERROS DE SINTAXE - também conhecidos como erros de parse
+# [C] EXCEÇÕES - detectados durante a execução
+# [C] Níveis de Logging - 'debug' - passar informações para os desenvolvedores.
+# [C] Níveis de Logging - 'info' - informar algo que está acontecendo, mas que não é um erro.
+# [C] Níveis de Logging - 'warning' - alertar sobre algo, possivelmente fora do esperado, porém, ainda não é um erro, mas pode gerar futuramente.
+# [C] Níveis de Logging - 'error' - um erro que aconteceu na aplicação.
+# [C] Níveis de Logging - 'critical' - um erro com consequências graves.
+# [C] Por padrão irá exibir no terminal apenas as mensagens do nível 'warning' para cima.
+# [C] Para alterarmos este nível padrão, utilizamos o 'level' em 'basicConfig'.
+# Criar um programa que divide um nº fixo por um outro nº informado pelo usuário e registrando no arquivo de log:
+# => USUÁRIO CONCLUIU COM SUCESSO
+# => ERRO (usuário digitou uma string)
+# => ERRO (usuário tentou dividir por zero)
+# => MENSAGEM FINAL DO PROGRAMA
