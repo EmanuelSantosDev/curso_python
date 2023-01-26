@@ -1,49 +1,48 @@
 # ------------------------------------------------------------------------------------
-# Trabalhando com Arquivos JSON
+# Arquivos JSON
 # ------------------------------------------------------------------------------------
 
 
-# -----------------------------------------------------------
-# Criando um Arquivo JSON
-# -----------------------------------------------------------
+# ------------------------------------------------------------------------------------
+# Lendo um Arquivo JSON
+# ------------------------------------------------------------------------------------
 
 
 import json
-from pathlib import Path
-
-carros = [
-    {'Marca': 'Nissan', 'Preco': 45000, 'Cor': 'Azul'},
-    {'Marca': 'Ford', 'Preco': 75000, 'Cor': 'Verde'},
-    {'Marca': 'BMW', 'Preco': 117000, 'Cor': 'Amarelo'},
-]
-
-# converte um objeto python em um objeto JSON equivalente
-carros_json = json.dumps(carros)
-Path('06 - Trabalhando com Arquivos\carros.json').write_text(carros_json)
 
 
-# -----------------------------------------------------------
-# Lendo um Arquivo JSON
-# -----------------------------------------------------------
+with open('05 - Trabalhando com Arquivos/usuarios.json', encoding='utf-8') as arquivo_json:
+    data = json.load(arquivo_json)
+
+    # nome do 2º usuário?
+    print(data['usuários'][1]['nome'])  # Douglas
+
+    # permissão na 2ª posição da lista?
+    print(data['usuários'][1]['permissões'][1])  # intermediário
+
+    # preço do plano?
+    print(data['usuários'][1]['plano']['preco'])  # R$50,00
 
 
-# lendo o arquivo 'carros.json'
-arquivo_carros_json = Path('06 - Trabalhando com Arquivos\carros.json').read_text()
-
-# analisando a string JSON e convertendo em um dicionário Python
-carros_dicionario = json.loads(arquivo_carros_json)
-
-print(carros_dicionario[1]['Marca'] + ' ' + str(carros_dicionario[1]['Preco']))
-# Ford 75000
+# ------------------------------------------------------------------------------------
+# Criando um Arquivo JSON
+# ------------------------------------------------------------------------------------
 
 
-# -----------------------------------------------------------
-# Desafio Pikachu
-# => encontrar e exibir na tela a 'ability' 'lightning-rod'
-# -----------------------------------------------------------
+computador = {
+    'marca': 'Dell',
+    'preço': 15000,
+    'tamanhos': ['pequeno', 'médio', 'grande']
+}
 
 
-arquivo_pikachu = Path('06 - Trabalhando com Arquivos\pikachu.json').read_text()
-arquivo_pikachu_convertido = json.loads(arquivo_pikachu)
-print(arquivo_pikachu_convertido['abilities'][1]['ability']['name'])
-# lightning-rod
+# criando o arquivo .json
+with open('05 - Trabalhando com Arquivos/computador.json', 'w', encoding='utf-8') as arquivo_json:
+    json.dump(computador, arquivo_json)
+
+
+# lendo o arquivo .json que foi criado
+with open('05 - Trabalhando com Arquivos/computador.json', encoding='utf-8') as arquivo_json:
+    data = json.load(arquivo_json)
+    print(data['marca'])  # Dell
+    print(data['tamanhos'][1])  # médio

@@ -167,7 +167,6 @@
 
 # JSON - criar um arquivo JSON
 # JSON - ler um arquivo JSON
-# JSON - Desafio Pikachu => encontrar e exibir na tela a 'ability' 'lightning-rod'
 # ARQUIVOS TXT E OUTROS - criar um novo arquivo
 # ARQUIVOS TXT E OUTROS - acrescentar individualmente informação em um arquivo
 # ARQUIVOS TXT E OUTROS - acrescentar informações em um arquivo a partir de uma lista
