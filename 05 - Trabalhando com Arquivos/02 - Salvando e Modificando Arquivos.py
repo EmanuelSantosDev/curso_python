@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
+"""
 - ao abrir um arquivo, devemos ao final lembrar de fechá-lo
 - se não fecharmos, pode dar algum erro, como não salvar as informações
 
@@ -30,7 +30,7 @@ OBJETIVOS AO ABRIR O ARQUIVO
 'a'  -> usado para ACRESCENTAR informação à um arquivo
 'r'  -> usado para LER o arquivo
 'r+' -> usado para LER e ESCREVER no arquivo
-'''
+"""
 
 
 # ------------------------------------------------------------------------------------
@@ -87,20 +87,18 @@ with open('nomes.txt', 'a', newline='', encoding='utf-8') as arquivo:
 with open('nomes.txt', 'r', encoding='utf-8') as arquivo:
     for linha in arquivo:
         print(linha)
-'''
-Kaká
-Suárez
-Cristiano Ronaldo
-Messi
-Cafú
-Rivaldo
-Neymar
-10
-20
-30
-40
-50
-'''
+# Kaká
+# Suárez
+# Cristiano Ronaldo
+# Messi
+# Cafú
+# Rivaldo
+# Neymar
+# 10
+# 20
+# 30
+# 40
+# 50
 
 
 # ------------------------------------------------------------------------------------

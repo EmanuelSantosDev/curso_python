@@ -3,11 +3,9 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- É uma maneira de armazenar valores que não devem ser alterados
-- Não é possivel alterar os valores depois de terem sido criadas
-- É um tipo dinâmico, assim como a lista, e aceita qualquer tipo de dado
-'''
+# É uma maneira de armazenar valores que não devem ser alterados
+# Não é possivel alterar os valores depois de terem sido criadas
+# É um tipo dinâmico, assim como a lista, e aceita qualquer tipo de dado
 
 
 # criando uma Tupla
@@ -22,7 +20,7 @@ print(valores[2])  # 65
 
 # não é possivel alterar os valores
 # TypeError: 'tuple' object does not support item assignment
-# sites[1] = 'google.com'
+sites[1] = 'google.com'
 
 
 # União de Tuplas

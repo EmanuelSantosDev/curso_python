@@ -3,15 +3,13 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-É um tipo de dado que nos permite passar por cada valor dentro dele.
-
-Exemplos de iteráveis:
-
-- range()
-- lista[]
-- String
-'''
+# É um tipo de dado que nos permite passar por cada valor dentro dele.
+# 
+# Exemplos de iteráveis:
+# 
+# -> range()
+# -> lista[]
+# -> String
 
 
 # Uma STRING também é um iterável:

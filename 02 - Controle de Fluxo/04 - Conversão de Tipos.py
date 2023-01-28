@@ -21,10 +21,7 @@ nota_2 = float(nota)
 print(type(nota_2))  # <class 'float'>
 
 
-'''
- OUTRAS conversões que aprenderemos mais à frente
-
-list()
-tuple()
-dict()
-'''
+# OUTRAS conversões que aprenderemos mais à frente:
+# list()
+# tuple()
+# dict()

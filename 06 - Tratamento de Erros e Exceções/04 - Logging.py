@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
+"""
 É uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
 
 Níveis de Logging:
@@ -23,7 +23,7 @@ alterarmos o nível padrão, utilizamos o 'basicConfig'.
 
 'level' é o que defini o nível mínimo de logging para que a mensagem seja
 impressa no terminal
-'''
+"""
 
 
 import logging

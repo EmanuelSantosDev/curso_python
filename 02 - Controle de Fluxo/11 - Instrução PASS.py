@@ -3,10 +3,9 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- Cria um espaço reservado para código futuro
-- Evita que o interpretador fique acusando erro
-'''
+#  Cria um espaço reservado para código futuro
+#  Evita que o interpretador fique acusando erro
+
 
 numero = 0
 while numero < 5:

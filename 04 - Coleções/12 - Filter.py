@@ -3,10 +3,7 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- processa uma coleção de dados e retorna APENAS os items que 
-  são avaliados como TRUE
-'''
+# processa uma coleção de dados e retorna APENAS os items que avaliados como TRUE
 
 
 nomes = ['Rafael', 'João', 'Renato', 'Emanuel', 'Ruan']

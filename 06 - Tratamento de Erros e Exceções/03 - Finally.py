@@ -3,10 +3,8 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- há casos em que mesmo que uma excessão seja tratada, uma lógica
-  precisa ser realizada após o erro ocorrer
-'''
+#  há casos em que mesmo que uma excessão seja tratada, uma lógica precisa ser...
+# ...realizada após o erro ocorrer
 
 
 # Exemplo 1

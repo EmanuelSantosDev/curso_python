@@ -3,17 +3,8 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-Utilizados quando precisamos de dados mais estruturados 
-e nomes de propriedades:
-
-Pessoa
-    nome
-    idade
-    altura
-
-Utiliza o padrão chave:valor
-'''
+# Utiliza o padrão chave:valor
+# Utilizados quando precisamos de dados mais estruturados e nomes de propriedades
 
 
 # utilizanso strings como chave
@@ -50,11 +41,9 @@ print(dicionario_pessoa_3.items())
 for item in dicionario_pessoa_3.items():
     print(item)
     print(item[1])
-'''
-('nome', 'Bianca')
-Bianca
-('idade', 23)
-23
-('altura', 1.52)
-1.52
-'''
+# ('nome', 'Bianca')
+# Bianca
+# ('idade', 23)
+# 23
+# ('altura', 1.52)
+# 1.52

@@ -3,10 +3,8 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- são funções com nº ilimitado de argumentos nomeados
-- enquanto os *args são passados como tuplas, os *kwargs são passados como DICIONÁRIO
-'''
+# são funções com nº ilimitado de argumentos nomeados
+# enquanto os *args são passados como tuplas, os *kwargs são passados como DICIONÁRIO
 
 
 def concatenar(**palavras):
@@ -20,13 +18,10 @@ concatenar(a='O', b='Grêmio', c='vai', d='sair',
            e='campeão')  # O Grêmio vai sair campeão
 
 
-'''
-Mesclando uma Função com:
-
-- argumento posicional de QUANTIDADE DEFINIDA
-- argumentos POSICIONAIS de quantidade X
-- argumentos NOMEADOS de quantidade X
-'''
+# Mesclando uma Função com:
+# argumento posicional de QUANTIDADE DEFINIDA
+# argumentos POSICIONAIS de quantidade X
+# argumentos NOMEADOS de quantidade X
 
 
 def fazer_calculo(nome, *args, **kwargs):

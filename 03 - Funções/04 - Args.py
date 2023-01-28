@@ -3,11 +3,9 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- em alguns casos não sabemos QUANTOS argumentos a função irá receber
-- esta quantidade X de argumentos são passados no formato de TUPLAS
-- os DEMAIS ARGUMETNOS devem ser NOMEADOS
-'''
+# em alguns casos não sabemos QUANTOS argumentos a função irá receber
+# esta quantidade X de argumentos são passados no formato de TUPLAS
+# os DEMAIS ARGUMETNOS devem ser NOMEADOS
 
 
 def somar(*valores, b):

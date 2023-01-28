@@ -3,13 +3,10 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- é um tipo mutável (pode ser alterado)
-- pode receber novos elementos
-- PORÉM NÃO permite elementos DUPLICADOS
-- é uma estrutura de dados desordenada, então ele não preserva 
-  a ordem da lista comum
-'''
+# é um tipo mutável (pode ser alterado)
+# pode receber novos elementos
+# PORÉM NÃO permite elementos DUPLICADOS
+# é uma estrutura de dados desordenada, então ele não preserva a ordem dos elementos
 
 
 # convertendo para set e eliminando os valores duplicados
@@ -19,10 +16,8 @@ set_numeros = set(numeros)
 set_frutas = set(frutas)
 print(set_numeros)
 print(set_frutas)
-'''
-{8, 2, 5}
-{'morango', 'maça', 'uva', 'banana'}
-'''
+# {8, 2, 5}
+# {'morango', 'maça', 'uva', 'banana'}
 
 
 # adicionando novos valores

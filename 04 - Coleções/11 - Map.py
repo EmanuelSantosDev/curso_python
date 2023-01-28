@@ -3,11 +3,8 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- é um método que passa como argumento uma função que será aplicada 
-  sobre todos os items de um conjunto de dados retornando um novo
-  conjunto de dados processados 
-'''
+# é um método que passa como argumento uma função que será aplicada sobre todos os... 
+# ..items de um conjunto de dados retornando um novoconjunto de dados processados 
 
 
 nomes = ['Larissa', 'Rafael', 'Marcus', 'John']
@@ -23,8 +20,6 @@ print(lista_aprovados)
 
 
 # Extraindo as cores da lista a seguir e colocando-as em uma nova lista.
-
-
 pinturas = [
     ['Pintura Classica', 'Azul', 1857],
     ['Pintura Medieval', 'Vermelha', 1867],

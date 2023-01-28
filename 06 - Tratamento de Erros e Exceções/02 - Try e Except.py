@@ -3,10 +3,8 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- O bloco 'try' permite testar erros em um bloco de código
-- O bloco 'except' permite lidar com o erro.
-'''
+# O bloco 'try' permite testar erros em um bloco de código
+# O bloco 'except' permite lidar com o erro.
 
 
 valor = int(input('Digite um valor em reais: '))
