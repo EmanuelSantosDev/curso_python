@@ -193,3 +193,13 @@
 # => ERRO (usuário digitou uma string)
 # => ERRO (usuário tentou dividir por zero)
 # => MENSAGEM FINAL DO PROGRAMA
+
+# ============================================================================================
+
+# 07 - CLASSES E ORIENTAÇÃO À OBJETOS
+
+# Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
+# Incluir ATRIBUTOS DA CLASSE
+# Incluir MÉTODOS COMUNS que acessam as propriedades da instância
+# Incluir MÉTODOS DA CLASSE
+# 
