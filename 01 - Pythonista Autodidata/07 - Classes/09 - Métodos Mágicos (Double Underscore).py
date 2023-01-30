@@ -15,9 +15,10 @@
 -> "__repr__" cria uma representação do objeto para o programador no console do Python. 
 
 -> "__str__" cria uma representação legível no formato de string e serve para exibir 
-    o objeto para usuário final, usada pelo comando print() e pela função str
+    o objeto para usuário final, usada pelo comando print() 
 
--> "dir(nome_da_instância)" fornece todos os métodos mágicos disponíveis em uma classe
+-> "dir(nome_da_instância)" fornece uma lista de todos os métodos mágicos disponíveis 
+   em uma classe
 
 """
 

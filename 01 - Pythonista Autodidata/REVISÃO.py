@@ -2,177 +2,177 @@
 
 # MÓDULO 1 - RECEBER E TRABALHAR COM DADOS
 
-# Descobrir se o tipo de dado se é float, int, etc...
-# Realizar o Unpacking
-# Print de Múltiplas Linhas
-# Caracteres de Escape (Nova Linha)
-# Caracteres de Escape (Não interpretando aspas internas - 2 formas)
-# Caracteres de Escape (Desativando a interpretação da "\")
-# Descobrir o comprimento de uma String
-# Strings Dinâmicos (f'Texto {variável}')
-# Funções de Strings (letra MAIÚSCULA)
-# Funções de Strings (letra MINÚSCULA)
-# Funções de Strings (retirar ESPAÇOS EM BRANCO)
-# Funções de Strings (retirar ESPAÇOS EM BRANCOS do lado ESQUERDO)
-# Funções de Strings (retirar ESPAÇOS EM BRANCOS do lado DIREITO)
-# Funções de Strings (ENCONTRAR O ÍNDICE de determinados caracteres)
-# Funções de Strings (TROCAR uma cadeia de strings por outra)
-# "Slice" utilizando índices (um ÚNICO índice especifico)
-# "Slice" utilizando índices (o ÚLTIMO índice)
-# "Slice" utilizando índices (de um índice INICIAL até um índice FINAL)
-# "Slice" utilizando índices (de um índice INICIAL até o ÚLTIMO ÍNDICE)
-# "Slice" utilizando índices (de X ÍNDICES NEGATIVOS até o ÚLTIMO ÍNDICE)
-# "Slice" utilizando índices (X índices NEGATIVOS até o ÍNDICE INICIAL)
-# "Slice" utilizando índices (de um índice INICIAL até o ÚLTIMO ÍNDICE NEGATIVO)
-# Separar uma string em uma lista utilizando ' '
-# Separar uma string em uma lista utilizando ','
-# Separar uma string em uma lista utilizando '-'
-# Separar uma string em uma lista especificando um número máximo de ocorrências
-# Juntar uma lista transformando em uma string utilizando ','
-# Juntar uma lista transformando em uma string utilizando '.'
-# Juntar uma lista transformando em uma string utilizando ' '
-# Receber Dados do Usuário (padrão)
-# Receber Dados do Usuário (convertendo de string para inteiro)
-# Operações Matemáticas (Divisão de Inteiro)
-# Operações Matemáticas (Módulos - Resto da Divisão)
-# Operações Matemáticas (Exponenciação)
-# Operações Matemáticas (Atalhos de Atribuição Rápida)
-# Operações Matemáticas (Funções de Arredondamento => padrão + para cima + para baixo)
-# Tempo (imprimir AGORA, DIA, MÊS e ANO todos separados)
-# Tempo (passar os dados diretamente para a função de criar uma data)
-# Tempo (receber os dados de um usuário e transformar em data)
-# Tempo (calcular o INTERVALO entre duas datas)
-# Números Aleatórios (gerar um valor aleatório de 0.0 a 1.0)
-# Números Aleatórios (com VALOR MÍNIMO e VALOR MÁXIMO e NÚMEROS DECIMAIS)
-# Números Aleatórios (com VALOR MÍNIMO e VALOR MÁXIMO e NÚMEROS INTEIROS)
-# Números Aleatórios (selecionar uma OPÇÃO ALEATÓRIA dentro de uma LISTA)
-# Números Aleatórios (selecionar de FORMA ELEATÓRIA E MÚLTIPLA  dentro de uma LISTA)
-# Números Aleatórios (EMBARALHAR os ítems de uma lista)
-# Debugar o Código (usar também o console de debug)
+# [E] Descobrir se o tipo de dado se é float, int, etc...
+# [E] Realizar o Unpacking
+# [E] Print de Múltiplas Linhas
+# [E] Caracteres de Escape (Nova Linha)
+# [E] Caracteres de Escape (Não interpretando aspas internas - 2 formas)
+# [E] Caracteres de Escape (Desativando a interpretação da "\")
+# [E] Descobrir o comprimento de uma String
+# [E] Strings Dinâmicos (f'Texto {variável}')
+# [E] Funções de Strings (letra MAIÚSCULA)
+# [E] Funções de Strings (letra MINÚSCULA)
+# [E] Funções de Strings (retirar ESPAÇOS EM BRANCO)
+# [E] Funções de Strings (retirar ESPAÇOS EM BRANCOS do lado ESQUERDO)
+# [E] Funções de Strings (retirar ESPAÇOS EM BRANCOS do lado DIREITO)
+# [E] Funções de Strings (ENCONTRAR O ÍNDICE de determinados caracteres)
+# [E] Funções de Strings (TROCAR uma cadeia de strings por outra)
+# [E] "Slice" utilizando índices (um ÚNICO índice especifico)
+# [E] "Slice" utilizando índices (o ÚLTIMO índice)
+# [E] "Slice" utilizando índices (de um índice INICIAL até um índice FINAL)
+# [E] "Slice" utilizando índices (de um índice INICIAL até o ÚLTIMO ÍNDICE)
+# [E] "Slice" utilizando índices (de X ÍNDICES NEGATIVOS até o ÚLTIMO ÍNDICE)
+# [E] "Slice" utilizando índices (X índices NEGATIVOS até o ÍNDICE INICIAL)
+# [E] "Slice" utilizando índices (de um índice INICIAL até o ÚLTIMO ÍNDICE NEGATIVO)
+# [E] Separar uma string em uma lista utilizando ' '
+# [E] Separar uma string em uma lista utilizando ','
+# [E] Separar uma string em uma lista utilizando '-'
+# [E] Separar uma string em uma lista especificando um número máximo de ocorrências
+# [E] Juntar uma lista transformando em uma string utilizando ','
+# [E] Juntar uma lista transformando em uma string utilizando '.'
+# [E] Juntar uma lista transformando em uma string utilizando ' '
+# [E] Receber Dados do Usuário (padrão)
+# [E] Receber Dados do Usuário (convertendo de string para inteiro)
+# [E] Operações Matemáticas (Divisão de Inteiro)
+# [E] Operações Matemáticas (Módulos - Resto da Divisão)
+# [E] Operações Matemáticas (Exponenciação)
+# [E] Operações Matemáticas (Atalhos de Atribuição Rápida)
+# [E] Operações Matemáticas (Funções de Arredondamento => padrão + para cima + para baixo)
+# [E] Tempo (imprimir AGORA, DIA, MÊS e ANO todos separados)
+# [E] Tempo (passar os dados diretamente para a função de criar uma data)
+# [E] Tempo (receber os dados de um usuário e transformar em data)
+# [E] Tempo (calcular o INTERVALO entre duas datas)
+# [E] Números Aleatórios (gerar um valor aleatório de 0.0 a 1.0)
+# [E] Números Aleatórios (com VALOR MÍNIMO e VALOR MÁXIMO e NÚMEROS DECIMAIS)
+# [E] Números Aleatórios (com VALOR MÍNIMO e VALOR MÁXIMO e NÚMEROS INTEIROS)
+# [E] Números Aleatórios (selecionar uma OPÇÃO ALEATÓRIA dentro de uma LISTA)
+# [E] Números Aleatórios (selecionar de FORMA ELEATÓRIA E MÚLTIPLA  dentro de uma LISTA)
+# [E] Números Aleatórios (EMBARALHAR os ítems de uma lista)
+# [E] Debugar o Código (usar também o console de debug)
 
 # ============================================================================================
 
 # MÓDULO 2 - CONTROLE DE FLUXO
 
-# Operadores Lógicos (Maior, Menor, Diferente, etc...)
-# Operadores Booleanos (not)
-# Operadores de Identidade e Igualdade
-# Conversão de Tipos
-# Condicionais (IF, ELIF e ELSE)
-# Condicionais com Chaining (encadeamento)
-# Operador Ternário
-# Loop For (iterar sobre uma lista)
-# Loop For (iterar uma QUANTIDADE de vezes)
-# Loop For (iterar uma QUANTIDADE de vezes com valores INICIAL e FINAL)
-# Loop For (iterar uma QUANTIDADE de vezes com valores INICIAL e FINAL e SALTOS)
-# Loops Aninhados (iterar sobre DUAS LISTAS)
-# Loops Aninhados (iterar sobre DOIS RANGES)
-# Iteráveis são estruturas de dados que nos permitem passar por cada valor dentro deles
-# Loop While (utilizando um contador)
-# Loop While (loop DECRESCENTE)
-# Loop While (repetir enquanto uma condição não for satisfeita)
-# Instrução que cria um espaço reservado para código futuro
-# Instrução que interrompe um loop
-# Instrução que pula determinada etapa de um loop
+# [E] Operadores Lógicos (Maior, Menor, Diferente, etc...)
+# [E] Operadores Booleanos (not)
+# [E] Operadores de Identidade e Igualdade
+# [E] Conversão de Tipos
+# [E] Condicionais (IF, ELIF e ELSE)
+# [E] Condicionais com Chaining (encadeamento)
+# [E] Operador Ternário
+# [E] Loop For (iterar sobre uma lista)
+# [E] Loop For (iterar uma QUANTIDADE de vezes)
+# [E] Loop For (iterar uma QUANTIDADE de vezes com valores INICIAL e FINAL)
+# [E] Loop For (iterar uma QUANTIDADE de vezes com valores INICIAL e FINAL e SALTOS)
+# [E] Loops Aninhados (iterar sobre DUAS LISTAS)
+# [E] Loops Aninhados (iterar sobre DOIS RANGES)
+# [E] Iteráveis são estruturas de dados que nos permitem passar por cada valor dentro deles
+# [E] Loop While (utilizando um contador)
+# [E] Loop While (loop DECRESCENTE)
+# [E] Loop While (repetir enquanto uma condição não for satisfeita)
+# [E] Instrução que cria um espaço reservado para código futuro
+# [E] Instrução que interrompe um loop
+# [E] Instrução que pula determinada etapa de um loop
 
 # ============================================================================================
 
 # MÓDULO 3 - FUNÇÕES
 
-# Parâmetro com Valor Padrão
-# Parâmetro com Valor Padrão deve ser declaro ao final (conceito)
-# Argumentos Posicionais x Argumentos Nomeados (conceito)
-# 0 argumentos posicionais + 2 argumentos nomeados
-# 1 argumento posicional + 1 argumento nomeado
-# Args
-# Kwargs
-# Função com = Argumento Posicional + Args + Kwargs
-# Decorators
+# [E] Parâmetro com Valor Padrão
+# [E] Parâmetro com Valor Padrão deve ser declaro ao final (conceito)
+# [E] Argumentos Posicionais x Argumentos Nomeados (conceito)
+# [E] 0 argumentos posicionais + 2 argumentos nomeados
+# [E] 1 argumento posicional + 1 argumento nomeado
+# [E] Args
+# [E] Kwargs
+# [E] Função com = Argumento Posicional + Args + Kwargs
+# [E] Decorators
 
 # ============================================================================================
 
 # MÓDULO 4 - COLEÇÕES
 
-# Listas - [C] as listas no Python são dinâmicas (aceitam qualquer tipo de dado)
-# Listas - passar um valor e descobrir o índice do mesmo dentro da lista
-# Listas - criar uma lista através da múltiplicação (números e strings)
-# Listas - criar uma lista através de um range
-# Listas - criar uma lista através de um range e com intervalos
-# Listas - criar uma lista a partir de uma string
-# Listas - criar uma MATRIZ
-# Manipulação de Listas - adicionar novo item ao final
-# Manipulação de Listas - adicionar novo item à uma lista indicando seu índice
-# Manipulação de Listas - unir duas listas criando uma nova lista
-# Manipulação de Listas - unir duas listas extendendo uma nova já existente
-# Manipulação de Listas - remover item da lista com base no seu índice e printar o valor extraído
-# Manipulação de Listas - remover item da lista informando seu valor
-# Manipulação de Listas - remover item da lista informando seu índice
-# Manipulação de Listas - remover um intervalo de items da lista informando seu índice
-# Manipulação de Listas - contar quantas vezes um valor se repete em uma lista
-# Manipulação de Listas - resetar uma lista excluindo todos os seus valores
-# Ordenar Listas - ordem crescente
-# Ordenar Listas - ordem decrescente
-# Ordenar Listas - inveter os valores de uma lista
-# Processando Múltiplas Listas - iterar sobre duas listas simultaneamente
-# Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (descartando as posições faltantes)
-# Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (considerando as posições diferentes como 'none')
-# Dicionário - [C] Utiliza o padrão 'chave:valor'
-# Dicionário - criar um dicionário manualmente
-# Dicionário - criar um dicionário utilizando um método apropriado
-# Dicionário - acessar uma propriedade de um dicionário
-# Dicionário - descobrir quais são as PROPRIEDADES disponiveis em um dicionário
-# Dicionário - descobrir quais são os VALORES disponiveis em um dicionário
-# Dicionário - descobrir quais são as as CHAVES + VALORES disponiveis em um dicionário (nos devolve uma lista de tuplas)
-# Dicionário - iterar sobre um dicionário
-# Tuplas - [C] semelhante às listas, porém, não é possivel alterar os valores depois de terem sido criadas
-# Tuplas - acessar os valores de uma tupla através do seu índice
-# Tuplas - unir duas tuplas
-# Arrays - [C] podemos armazenar apenas ITEMS DO MESMO TIPO. Esta é sua diferença em relação às listas.
-# Arrays - [C] as operações são basicamente iguais às das listas
-# Arrays - [C] utiliza-se Type Code para definição do tipo:
-# Arrays - criar um array de inteiros
-# Arrays - criar um array de strings
-# Arrays - criar um array de floats
-# Operando com Range em Coleções - [C] além dos loops pode ser utilizado para criar listas mais rapidamente
-# Operando com Range em Coleções - criar uma lista utilizando range
-# Enumerate - [C] é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
-# Enumerate - [C] permite receber o valor inicial do índice
-# Enumerate - utilizar o enumerate sobre uma lista
-# Ordenar Coleções através de Propriedades - criar uma lista de dicionários
-# Ordenar Coleções através de Propriedades - ordenar utilizando diferentes chaves
-# Ordenar Coleções através de Propriedades - criar uma lista de tuplas
-# Ordenar Coleções através de Propriedades - ordenar utilizando o índice de seus items
-# Map - [C] passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
-# Map - aplicar sobre uma lista
-# Map - aplicar sobre uma lista de listas
-# Filter - [C] processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
-# Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
-# Set - [C] é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
-# Set - criar um Set manualmente
-# Set - criar um Set a partir de uma lista
-# Set - adicionar novos valores ao Set
-# Set - entre duas listas de dados, obter um conjunto com os dados que NÃO se repetem
-# Set - entre duas listas de dados, obter um conjunto apenas com os dados que se REPETEM
-# Set - entre duas listas de dados, obter a união dos dois conjuntos de dados
-# Conversão de Tipo entre Coleções - converter uma STRING em uma LISTA
-# Conversão de Tipo entre Coleções - converter uma STRING em um SET
-# Conversão de Tipo entre Coleções - converter uma STRING em uma TUPLA
-# Conversão de Tipo entre Coleções - converter um RANGE em uma LISTA
-# Conversão de Tipo entre Coleções - converter uma LISTA em um SET
-# Conversão de Tipo entre Coleções - converter uma LISTA em uma TUPLA
+# [C] Listas - as listas no Python são dinâmicas (aceitam qualquer tipo de dado)
+# [E] Listas - passar um valor e descobrir o índice do mesmo dentro da lista
+# [E] Listas - criar uma lista através da múltiplicação (números e strings)
+# [E] Listas - criar uma lista através de um range
+# [E] Listas - criar uma lista através de um range e com intervalos
+# [E] Listas - criar uma lista a partir de uma string
+# [E] Listas - criar uma MATRIZ
+# [E] Manipulação de Listas - adicionar novo item ao final
+# [E] Manipulação de Listas - adicionar novo item à uma lista indicando seu índice
+# [E] Manipulação de Listas - unir duas listas criando uma nova lista
+# [E] Manipulação de Listas - unir duas listas extendendo uma nova já existente
+# [E] Manipulação de Listas - remover item da lista com base no seu índice e printar o valor extraído
+# [E] Manipulação de Listas - remover item da lista informando seu valor
+# [E] Manipulação de Listas - remover item da lista informando seu índice
+# [E] Manipulação de Listas - remover um intervalo de items da lista informando seu índice
+# [E] Manipulação de Listas - contar quantas vezes um valor se repete em uma lista
+# [E] Manipulação de Listas - resetar uma lista excluindo todos os seus valores
+# [E] Ordenar Listas - ordem crescente
+# [E] Ordenar Listas - ordem decrescente
+# [E] Ordenar Listas - inveter os valores de uma lista
+# [E] Processando Múltiplas Listas - iterar sobre duas listas simultaneamente
+# [E] Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (descartando as posições faltantes)
+# [E] Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (considerando as posições diferentes como 'none')
+# [C] Dicionário - Utiliza o padrão 'chave:valor'
+# [E] Dicionário - criar um dicionário manualmente
+# [E] Dicionário - criar um dicionário utilizando um método apropriado
+# [E] Dicionário - acessar uma propriedade de um dicionário
+# [E] Dicionário - descobrir quais são as PROPRIEDADES disponiveis em um dicionário
+# [E] Dicionário - descobrir quais são os VALORES disponiveis em um dicionário
+# [E] Dicionário - descobrir quais são as as CHAVES + VALORES disponiveis em um dicionário (nos devolve uma lista de tuplas)
+# [E] Dicionário - iterar sobre um dicionário
+# [C] Tuplas - semelhante às listas, porém, não é possivel alterar os valores depois de terem sido criadas
+# [E] Tuplas - acessar os valores de uma tupla através do seu índice
+# [E] Tuplas - unir duas tuplas
+# [C] Arrays - podemos armazenar apenas ITEMS DO MESMO TIPO. Esta é sua diferença em relação às listas.
+# [C] Arrays - as operações são basicamente iguais às das listas
+# [C] Arrays - utiliza-se Type Code para definição do tipo:
+# [E] Arrays - criar um array de inteiros
+# [E] Arrays - criar um array de strings
+# [E] Arrays - criar um array de floats
+# [C] Operando com Range em Coleções - além dos loops pode ser utilizado para criar listas mais rapidamente
+# [E] Operando com Range em Coleções - criar uma lista utilizando range
+# [C] Enumerate - é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
+# [C] Enumerate - permite receber o valor inicial do índice
+# [E] Enumerate - utilizar o enumerate sobre uma lista
+# [E] Ordenar Coleções através de Propriedades - criar uma lista de dicionários
+# [E] Ordenar Coleções através de Propriedades - ordenar utilizando diferentes chaves
+# [E] Ordenar Coleções através de Propriedades - criar uma lista de tuplas
+# [E] Ordenar Coleções através de Propriedades - ordenar utilizando o índice de seus items
+# [C] Map - passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
+# [E] Map - aplicar sobre uma lista
+# [E] Map - aplicar sobre uma lista de listas
+# [C] Filter - processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
+# [E] Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
+# [C] Set - é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
+# [E] Set - criar um Set manualmente
+# [E] Set - criar um Set a partir de uma lista
+# [E] Set - adicionar novos valores ao Set
+# [E] Set - entre duas listas de dados, obter um conjunto com os dados que NÃO se repetem
+# [E] Set - entre duas listas de dados, obter um conjunto apenas com os dados que se REPETEM
+# [E] Set - entre duas listas de dados, obter a união dos dois conjuntos de dados
+# [E] Conversão de Tipo entre Coleções - converter uma STRING em uma LISTA
+# [E] Conversão de Tipo entre Coleções - converter uma STRING em um SET
+# [E] Conversão de Tipo entre Coleções - converter uma STRING em uma TUPLA
+# [E] Conversão de Tipo entre Coleções - converter um RANGE em uma LISTA
+# [E] Conversão de Tipo entre Coleções - converter uma LISTA em um SET
+# [E] Conversão de Tipo entre Coleções - converter uma LISTA em uma TUPLA
 
 # ============================================================================================
 
 # MÓDULO 5 - TRABALHANDO COM ARQUIVOS
 
-# JSON - criar um arquivo JSON
-# JSON - ler um arquivo JSON
-# ARQUIVOS TXT E OUTROS - criar um novo arquivo
-# ARQUIVOS TXT E OUTROS - acrescentar individualmente informação em um arquivo
-# ARQUIVOS TXT E OUTROS - acrescentar informações em um arquivo a partir de uma lista
-# ARQUIVOS TXT E OUTROS - ler um arquivo e imprimir dados no terminal
-# ARQUIVOS TXT E OUTROS - ler um arquivo e acrescentar dados
-# ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
+# [E] JSON - criar um arquivo JSON
+# [E] JSON - ler um arquivo JSON
+# [E] ARQUIVOS TXT E OUTROS - criar um novo arquivo
+# [E] ARQUIVOS TXT E OUTROS - acrescentar individualmente informação em um arquivo
+# [E] ARQUIVOS TXT E OUTROS - acrescentar informações em um arquivo a partir de uma lista
+# [E] ARQUIVOS TXT E OUTROS - ler um arquivo e imprimir dados no terminal
+# [E] ARQUIVOS TXT E OUTROS - ler um arquivo e acrescentar dados
+# [E] ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
 
 # ============================================================================================
 
@@ -188,18 +188,38 @@
 # [C] Níveis de Logging - 'critical' - um erro com consequências graves.
 # [C] Por padrão irá exibir no terminal apenas as mensagens do nível 'warning' para cima.
 # [C] Para alterarmos este nível padrão, utilizamos o 'level' em 'basicConfig'.
-# Criar um programa que divide um nº fixo por um outro nº informado pelo usuário e registrando no arquivo de log:
-# => USUÁRIO CONCLUIU COM SUCESSO
-# => ERRO (usuário digitou uma string)
-# => ERRO (usuário tentou dividir por zero)
-# => MENSAGEM FINAL DO PROGRAMA
+# [E] Criar um programa de cálculo de divisão e registrar no log: USUÁRIO CONCLUIU COM SUCESSO + ERRO (usuário digitou uma string) + ERRO (usuário tentou dividir por zero) + MENSAGEM FINAL DO PROGRAMA
 
 # ============================================================================================
 
 # 07 - CLASSES E ORIENTAÇÃO À OBJETOS
 
-# Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
-# Incluir ATRIBUTOS DA CLASSE
-# Incluir MÉTODOS COMUNS que acessam as propriedades da instância
-# Incluir MÉTODOS DA CLASSE que alteram a forma como uma classe é inicializada
-# Incluir MÉTODOS ESTÁTICOS
+# [E] Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
+# [E] Incluir ATRIBUTOS DA CLASSE
+# [E] Incluir MÉTODOS COMUNS que acessam as propriedades da instância
+# [E] Incluir MÉTODOS DA CLASSE que alteram a forma como uma classe é inicializada
+# [E] Incluir MÉTODOS ESTÁTICOS que agrupam funcionalidades de código
+# [C] Herança Simples - toda classe em python herda de uma classe chamada de "object"
+# [E] Herança Simples - herda os métodos e atributos da classe pai + tem seus PRÓPRIOS métodos e atributos
+# [E] Herança Simples - SOBRESCREVER método da classe pai
+# [E] Herança Simples - verificar se uma classe é instância de uma classe pai
+# [C] Herança Multinivel - devemos evitá-la, pois pode tornar o código completo e dificil de interpretar
+# [C] Herança Múltipla - util para criar novas classes, sem precisar reescrever funcionalidades existentes
+# [C] Herança Múltipla - muito útil quando estamos usando classes altamente relacionadas e que fazem ou usam as mesmas funcionalidades
+# [E] Herança Múltipla - criar uma classe com Herança Múltipla
+# [C] Herança Múltipla - o Python usa algo chamado MRO (Method Resolution Ordem). É ele quem define a propriedade ou função que será acessada primeiro.
+# [E] Herança Múltipla - aplicar o método para descobrir o MRO da classe que recebe herança múltipla
+# [C] Métodos Mágicos - também chamados de Double Underscore
+# [C] Métodos Mágicos - são métodos que executam automaticamente quando efetuamos alguma rotina específica
+# [E] Métodos Mágicos - método que determina o que deve ser mensurado para se obter a quantidade(comprimento) de uma determinada classe
+# [E] Métodos Mágicos - método que cria uma representação do objeto para o programador no console do Python.
+# [E] Métodos Mágicos - método que cria uma representação legível no formato de string e serve para exibir o objeto para usuário final
+# [E] Métodos Mágicos - método (não mágico) fornece uma lista de todos os métodos mágicos disponíveis em uma classe
+# [C] Classes Abstratas - são uma maneira de criar um "contrato" (esqueleto) obrigando que algo seja implementado nas classes filhas
+# [E] Classes Abstratas - criar uma classe abstrata com um método abstrato
+# [C] Polimorfismo - quer dizer que algo pode funcionar de formas diferentes dependendo do contexto
+# [E] Polimorfismo - criar uma função polimórfica (fora de uma classe)
+# [E] Polimorfismo - criar uma função polimórfica (dentro de uma classe)
+# [C] Quando Usar Classes - 1º CENÁRIO -> Escrevendo programas e rotinas simples que raramente mudam e, em geral possuem poucas linhas? NÃO USE FUNÇÕES OU CLASSES
+# [C] Quando Usar Classes - 2º CENÁRIO -> Tendo que reescrever a mesma funcionalidade mais de uma vez? USE FUNÇÕES
+# [C] Quando Usar Classes - 3º CENÁRIO -> Programa não é trivial e contem diversas funções, onde cada um trata de um problema/tema diferente? Possuem lógicas específicas sobre determinados domínios de conhecimento? USE CLASSES

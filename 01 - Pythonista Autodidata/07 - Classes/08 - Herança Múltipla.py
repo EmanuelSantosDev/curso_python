@@ -32,7 +32,7 @@ print(AtorProfissional.nome)  # Pessoa
 
 
 # o Python usa algo chamado MRO (Method Resolution Ordem)
-# é ele quem defini a propriedade ou função que será acessada primeiro
+# é ele quem define a propriedade ou função que será acessada primeiro
 # podemos descobrir qual será a sequência utilizando o método "mro()"
 
 

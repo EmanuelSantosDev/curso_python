@@ -6,9 +6,8 @@
 # útil para quando queremos usar funcionalidades similares ou expandir...
 # ...funcionalidades existentes
 # toda classe em python herda de uma classe chamada de "object"
+# poderiamos inicializar nossa classe assim => class Camera (object)
 # o método super() passa a responsabilidade dos atributos herdados para a classe pai
-# nossa classe está herdando da classe object
-# poderiamos inicializar assim => class Camera (object)
 
 
 class Camera:

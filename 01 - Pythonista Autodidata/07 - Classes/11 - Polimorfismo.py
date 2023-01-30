@@ -4,8 +4,8 @@
 
 
 # quer dizer que algo pode funcionar de formas diferentes dependendo do contexto
-# um método, por exemplo, pode ter comportamentos diferentes dependendo da quatidade...
-# ...de argumentos que são passados para ele
+# um método, por exemplo, pode ter comportamentos diferentes dependendo da... 
+# ...quantidade de argumentos que são passados para ele
 
 
 class Carro:
