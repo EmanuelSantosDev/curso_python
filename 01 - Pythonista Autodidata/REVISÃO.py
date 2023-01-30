@@ -201,5 +201,5 @@
 # Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
 # Incluir ATRIBUTOS DA CLASSE
 # Incluir MÉTODOS COMUNS que acessam as propriedades da instância
-# Incluir MÉTODOS DA CLASSE
-# 
+# Incluir MÉTODOS DA CLASSE que alteram a forma como uma classe é inicializada
+# Incluir MÉTODOS ESTÁTICOS
