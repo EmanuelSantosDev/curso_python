@@ -12,10 +12,10 @@
 from datetime import datetime
 
 
-def calcular_tempo_de_duracao(funcao):
+def calcular_tempo_de_duracao(func):
     def wrapper(a, b):
         inicio = datetime.now()
-        funcao(a, b)
+        func(a, b)
         fim = datetime.now()
         duracao = fim - inicio
         print(f'Tempo de Duração => {duracao}')
