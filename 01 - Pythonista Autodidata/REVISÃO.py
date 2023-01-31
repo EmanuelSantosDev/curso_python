@@ -80,14 +80,21 @@
 # MÓDULO 3 - FUNÇÕES
 
 # [E] Parâmetro com Valor Padrão
-# [E] Parâmetro com Valor Padrão deve ser declaro ao final (conceito)
-# [E] Argumentos Posicionais x Argumentos Nomeados (conceito)
+# [E] Parâmetro com Valor Padrão deve ser declarado ao final
+# [E] Argumentos Posicionais x Argumentos Nomeados
+# [E] Argumentos Posicionais x Argumentos Nomeados (simbolo que obriga que os próximos argumentos sejam nomeados)
 # [E] 0 argumentos posicionais + 2 argumentos nomeados
 # [E] 1 argumento posicional + 1 argumento nomeado
 # [E] Args
 # [E] Kwargs
-# [E] Função com = Argumento Posicional + Args + Kwargs
-# [E] Decorators
+# [E] Função com os 3 Tipos de Argumentos = Argumento Posicional + Args + Kwargs
+# [E] Args são passados como TUPLAS e Kwargs são passados como DICIONÁRIO
+# [C] Funções são Objetos de Primeira Classe - significa que uma função é um objeto e pode ser tratada como os demais objetos
+# [E] Funções são Objetos de Primeira Classe - armazenar a função em uma variável
+# [E] Funções são Objetos de Primeira Classe - passar a função como um parâmetro para outra função
+# [E] Funções são Objetos de Primeira Classe - retornar a função de uma função
+# [C] Decorators - altera o comportamento da função sem precisar alterar o seu código internamente facilitando o reuso de código
+# [E] Criar um Decorator
 
 # ============================================================================================
 

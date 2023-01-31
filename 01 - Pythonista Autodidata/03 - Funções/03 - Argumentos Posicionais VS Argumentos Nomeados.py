@@ -20,7 +20,7 @@ exibir_preco(5000, 'iPhone')  # 5000 está no valor de R$ iPhone
 exibir_preco(preco=5000, nome_produto='iPhone')
 
 
-# inserindo '*' obriga que os argumentos ARGUMENTOS À DIREITA sejam NOMEADOS
+# inserindo '*' obriga que os ARGUMENTOS À DIREITA sejam NOMEADOS
 def quantidade(*, a, b):
     print(a + b)
 
