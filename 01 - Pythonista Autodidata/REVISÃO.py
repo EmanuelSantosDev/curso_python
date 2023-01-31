@@ -220,6 +220,7 @@
 # [C] Polimorfismo - quer dizer que algo pode funcionar de formas diferentes dependendo do contexto
 # [E] Polimorfismo - criar uma função polimórfica (fora de uma classe)
 # [E] Polimorfismo - criar uma função polimórfica (dentro de uma classe)
+# [E] Polimorfismo - criar uma função polimórfica (dentro de uma classe) onde transformamos os argumentos extras em argumentos opcionais
 # [C] Quando Usar Classes - 1º CENÁRIO -> Escrevendo programas e rotinas simples que raramente mudam e, em geral possuem poucas linhas? NÃO USE FUNÇÕES OU CLASSES
 # [C] Quando Usar Classes - 2º CENÁRIO -> Tendo que reescrever a mesma funcionalidade mais de uma vez? USE FUNÇÕES
 # [C] Quando Usar Classes - 3º CENÁRIO -> Programa não é trivial e contem diversas funções, onde cada um trata de um problema/tema diferente? Possuem lógicas específicas sobre determinados domínios de conhecimento? USE CLASSES
