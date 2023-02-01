@@ -16,12 +16,12 @@
 
 
 def shout(text):
-    return text.upper()
+    print(text.upper())
 
 
-print(shout('Hello'))  # HELLO
+shout('Hello')  # HELLO
 yell = shout
-print(yell('Hello'))  # HELLO
+yell('Hello')  # HELLO
 
 
 # ------------------------------------------------------------------------------------
@@ -56,7 +56,7 @@ greet(whisper)
 
 def create_adder(x):
     def adder(y):
-        return x+y
+        return x + y
     return adder
 
 
