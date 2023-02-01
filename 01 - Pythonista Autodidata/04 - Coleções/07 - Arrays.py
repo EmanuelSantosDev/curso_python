@@ -3,16 +3,14 @@
 # ------------------------------------------------------------------------------------
 
 
-'''
-- podemos armazenar apenas ITEMS DO MESMO TIPO
-- essa é a grande diferença se comparado a listas
-- as operações são basicamente iguais
-- utiliza-se Type Code (Código de Tipo) para definição do tipo:
-    -> 'b' - char
-    -> 'i' - int
-    -> 'f' - float
-    -> 'd' - double
-'''
+# podemos armazenar apenas ITEMS DO MESMO TIPO
+# essa é a grande diferença se comparado a listas
+# as operações são basicamente iguais
+# utiliza-se Type Code (Código de Tipo) para definição do tipo:
+# >>>>>>> 'b' - char
+# >>>>>>> 'i' - int
+# >>>>>>> 'f' - float
+# >>>>>>> 'd' - double
 
 
 # importando o array

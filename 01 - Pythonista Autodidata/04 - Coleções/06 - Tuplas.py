@@ -27,5 +27,3 @@ sites[1] = 'google.com'
 dados_do_sistema = sites + valores
 print(dados_do_sistema)
 # ('youtube.com', 'facebook.com', 'instagram.com', 23, 43, 65)
-print(dados_do_sistema[2])
-# instagram.com

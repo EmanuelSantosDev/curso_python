@@ -138,14 +138,13 @@
 # [C] Arrays - as operações são basicamente iguais às das listas
 # [C] Arrays - utiliza-se Type Code para definição do tipo:
 # [E] Arrays - criar um array de inteiros
-# [E] Arrays - criar um array de strings
 # [E] Arrays - criar um array de floats
 # [C] Operando com Range em Coleções - além dos loops pode ser utilizado para criar listas mais rapidamente
 # [E] Operando com Range em Coleções - criar uma lista utilizando range
-# [C] Enumerate - é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
-# [C] Enumerate - permite receber o valor inicial do índice
-# [E] Enumerate - utilizar o enumerate sobre uma lista
-# [E] Ordenar Coleções através de Propriedades - criar uma lista de dicionários
+# [C] Descobrindo o Índice em um Loop - é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
+# [C] Descobrindo o Índice em um Loop - permite receber o valor inicial do índice
+# [E] Descobrindo o Índice em um Loop - utilizar o enumerate sobre uma lista
+# ✅[E] Ordenar Coleções através de Propriedades - criar uma lista de dicionários
 # [E] Ordenar Coleções através de Propriedades - ordenar utilizando diferentes chaves
 # [E] Ordenar Coleções através de Propriedades - criar uma lista de tuplas
 # [E] Ordenar Coleções através de Propriedades - ordenar utilizando o índice de seus items
