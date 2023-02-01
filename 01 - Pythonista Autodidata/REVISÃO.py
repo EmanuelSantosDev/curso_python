@@ -123,7 +123,7 @@
 # [E] Processando Múltiplas Listas - iterar sobre duas listas simultaneamente
 # [E] Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (descartando as posições faltantes)
 # [E] Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (considerando as posições diferentes como 'none')
-# [C] Dicionário - Utiliza o padrão 'chave:valor'
+# ✅ [C] Dicionário - Utiliza o padrão 'chave:valor'
 # [E] Dicionário - criar um dicionário manualmente
 # [E] Dicionário - criar um dicionário utilizando um método apropriado
 # [E] Dicionário - acessar uma propriedade de um dicionário
