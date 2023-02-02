@@ -150,9 +150,10 @@
 # [C] Map - passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
 # [E] Map - aplicar sobre uma lista
 # [E] Map - aplicar sobre uma lista de listas
-# ✅[C] Filter - processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
-# ✅[E] Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
+# [C] Filter - processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
+# [E] Filter - filtrar de uma lista apenas os nomes iniciados com 'M'
 # [C] Set - é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
+# [C] Set - comparando dois conjuntos podemos estraír os items: DIFERENTES, DIFERENTES SIMETRICAMENTE, IGUAIS e a UNIÃO de ambos os conjuntos 
 # [E] Set - criar um Set manualmente
 # [E] Set - criar um Set a partir de uma lista
 # [E] Set - adicionar novos valores ao Set
@@ -170,7 +171,7 @@
 
 # MÓDULO 5 - TRABALHANDO COM ARQUIVOS
 
-# [E] JSON - criar um arquivo JSON
+# ✅ [E] JSON - criar um arquivo JSON
 # [E] JSON - ler um arquivo JSON
 # [E] ARQUIVOS TXT E OUTROS - criar um novo arquivo
 # [E] ARQUIVOS TXT E OUTROS - acrescentar individualmente informação em um arquivo
