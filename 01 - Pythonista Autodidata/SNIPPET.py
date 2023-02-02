@@ -26,5 +26,16 @@ lista_de_dicionarios = [
     {'nome': 'Carlos', 'idade': 15, 'profissao': 'Professor'}
 ]
 
+cadastro = {
+    'nome': 'Emanuel Santos',
+    'idade': 36,
+    'habilidades': [
+        'Programação',
+        'Planilhas Excel',
+        'Digitação'
+    ],
+    'carteira_de_habilitacao': True
+}
+
 conjunto_set = {'Brasil', 'Hungria', 'Azerbaijão',
                 'Brasil', 'Japão', 'China', 'Hungria'}

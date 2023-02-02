@@ -153,7 +153,7 @@
 # [C] Filter - processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
 # [E] Filter - filtrar de uma lista apenas os nomes iniciados com 'M'
 # [C] Set - é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
-# [C] Set - comparando dois conjuntos podemos estraír os items: DIFERENTES, DIFERENTES SIMETRICAMENTE, IGUAIS e a UNIÃO de ambos os conjuntos 
+# [C] Set - comparando dois conjuntos podemos estraír os items: DIFERENTES, DIFERENTES SIMETRICAMENTE, IGUAIS e a UNIÃO de ambos os conjuntos
 # [E] Set - criar um Set manualmente
 # [E] Set - criar um Set a partir de uma lista
 # [E] Set - adicionar novos valores ao Set
@@ -171,14 +171,50 @@
 
 # MÓDULO 5 - TRABALHANDO COM ARQUIVOS
 
-# ✅ [E] JSON - criar um arquivo JSON
+# [E] JSON - transformar um dicionário em uma STRING JSON
+# [E] JSON - criar um ARQUIVO JSON
 # [E] JSON - ler um arquivo JSON
 # [E] ARQUIVOS TXT E OUTROS - criar um novo arquivo
 # [E] ARQUIVOS TXT E OUTROS - acrescentar individualmente informação em um arquivo
 # [E] ARQUIVOS TXT E OUTROS - acrescentar informações em um arquivo a partir de uma lista
 # [E] ARQUIVOS TXT E OUTROS - ler um arquivo e imprimir dados no terminal
 # [E] ARQUIVOS TXT E OUTROS - ler um arquivo e acrescentar dados
-# [E] ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
+# ✅[E] ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
+
+
+import os
+
+# quebra de linha com newline='' + os.linesep
+with open('nomes.txt', 'w', newline='', encoding='utf-8') as arquivo:
+    arquivo.write('Emanuel' + os.linesep)
+
+
+lista = ['Carlos', 'Luis', 'Everaldo', 'Márcia', 'Juan', 'Fabiano', 'Beatriz']
+
+with open('nomes.txt', 'a', newline='', encoding='utf-8') as arquivo:
+    for nome in lista:
+        arquivo.write(nome + os.linesep)
+
+continuar = True
+
+while continuar == True:
+    nome_digitado = input('Digite o Nome: ')
+    encontrou = False
+    with open('nomes.txt', 'r+', newline='', encoding='utf-8') as arquivo:
+        for nome in arquivo:
+            if nome.replace('\n', '') == nome_digitado:
+                print(f'Encontrei o nome digitado => {nome_digitado}')
+                encontrou = True
+                break
+
+        if encontrou == False:
+            print(
+                f'O nome {nome_digitado} não foi encontrado. Incluido no arquivo')
+            arquivo.write(nome_digitado + os.linesep)
+
+    continuar = True if input('Continuar? ') != '' else False
+    print('')
+
 
 # ============================================================================================
 
