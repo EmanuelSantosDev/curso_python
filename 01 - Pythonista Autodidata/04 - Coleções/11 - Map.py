@@ -4,7 +4,7 @@
 
 
 # é um método que passa como argumento uma função que será aplicada sobre todos os... 
-# ..items de um conjunto de dados retornando um novoconjunto de dados processados 
+# ..items de um conjunto de dados retornando um novo conjunto de dados processados 
 
 
 nomes = ['Larissa', 'Rafael', 'Marcus', 'John']

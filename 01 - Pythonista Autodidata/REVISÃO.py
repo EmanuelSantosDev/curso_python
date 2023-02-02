@@ -144,15 +144,14 @@
 # [C] Descobrindo o Índice em um Loop - é uma função que nos retorna o índice que estamos atualmente em determinado momento de um loop
 # [C] Descobrindo o Índice em um Loop - permite receber o valor inicial do índice
 # [E] Descobrindo o Índice em um Loop - utilizar o enumerate sobre uma lista
-# ✅[E] Ordenar Coleções através de Propriedades - criar uma lista de dicionários
-# [E] Ordenar Coleções através de Propriedades - ordenar utilizando diferentes chaves
-# [E] Ordenar Coleções através de Propriedades - criar uma lista de tuplas
-# [E] Ordenar Coleções através de Propriedades - ordenar utilizando o índice de seus items
+# [E] Ordenar Coleções através de Propriedades - criar uma lista de dicionários e ordenar pelas suas chaves
+# [E] Ordenar Coleções através de Propriedades - realizar ordenação multinível (utilizar mais de uma chave)
+# [E] Ordenar Coleções através de Propriedades - criar uma lista de tuplas e ordenar utilizando o índice de seus items
 # [C] Map - passa como argumento uma função que será aplicada sobre todos os items de um conjunto de dados retornando um novo conjunto de dados processados
 # [E] Map - aplicar sobre uma lista
 # [E] Map - aplicar sobre uma lista de listas
-# [C] Filter - processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
-# [E] Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
+# ✅[C] Filter - processa uma coleção de dados e retorna APENAS os items que são avaliados como TRUE
+# ✅[E] Filter - filtrar de uma lista apenas os nomes iniciados com 'B'
 # [C] Set - é um tipo mutável, pode receber novos elementos, PORÉM NÃO permite elementos DUPLICADOS
 # [E] Set - criar um Set manualmente
 # [E] Set - criar um Set a partir de uma lista
