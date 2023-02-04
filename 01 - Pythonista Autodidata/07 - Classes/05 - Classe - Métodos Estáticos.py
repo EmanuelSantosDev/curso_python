@@ -4,10 +4,11 @@
 
 
 # são métodos que não utilizam a instância da classe através do parâmetro "self"
-# nem mesmo modificam a classe através do parâmetro "cls"]
+# nem mesmo modificam a classe através do parâmetro "cls"
 # são métodos que fazem sentido serem incluídos em uma mesma classe onde queremos...
 # ...agrupar todas as funcionalidades de um tema específico, como um computador
-# uma função que é executada repetidamente e não queremos que ela fique "solta" no código
+# É uma função que é executada repetidamente e não queremos que ela fique "solta"...
+# ...no código
 # utiliza o decorador "@staticmethod"
 
 

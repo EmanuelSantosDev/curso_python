@@ -201,15 +201,20 @@
 
 # MÓDULO 7 - CLASSES E ORIENTAÇÃO À OBJETOS
 
-# ✅[E] Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
+# [E] Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
 # [E] Incluir ATRIBUTOS DA CLASSE
 # [E] Incluir MÉTODOS COMUNS que acessam as propriedades da instância
 # [E] Incluir MÉTODOS DA CLASSE que alteram a forma como uma classe é inicializada
 # [E] Incluir MÉTODOS ESTÁTICOS que agrupam funcionalidades de código
-# [C] Herança Simples - toda classe em python herda de uma classe chamada de "object"
+# ✅ [C] Herança Simples - toda classe em python herda de uma classe chamada de "object"
 # [E] Herança Simples - herda os métodos e atributos da classe pai + tem seus PRÓPRIOS métodos e atributos
 # [E] Herança Simples - SOBRESCREVER método da classe pai
 # [E] Herança Simples - verificar se uma classe é instância de uma classe pai
+
+
+
+
+
 # [C] Herança Multinivel - devemos evitá-la, pois pode tornar o código completo e dificil de interpretar
 # [C] Herança Múltipla - util para criar novas classes, sem precisar reescrever funcionalidades existentes
 # [C] Herança Múltipla - muito útil quando estamos usando classes altamente relacionadas e que fazem ou usam as mesmas funcionalidades
