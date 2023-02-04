@@ -179,48 +179,13 @@
 # [E] ARQUIVOS TXT E OUTROS - acrescentar informações em um arquivo a partir de uma lista
 # [E] ARQUIVOS TXT E OUTROS - ler um arquivo e imprimir dados no terminal
 # [E] ARQUIVOS TXT E OUTROS - ler um arquivo e acrescentar dados
-# ✅[E] ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
-
-
-import os
-
-# quebra de linha com newline='' + os.linesep
-with open('nomes.txt', 'w', newline='', encoding='utf-8') as arquivo:
-    arquivo.write('Emanuel' + os.linesep)
-
-
-lista = ['Carlos', 'Luis', 'Everaldo', 'Márcia', 'Juan', 'Fabiano', 'Beatriz']
-
-with open('nomes.txt', 'a', newline='', encoding='utf-8') as arquivo:
-    for nome in lista:
-        arquivo.write(nome + os.linesep)
-
-continuar = True
-
-while continuar == True:
-    nome_digitado = input('Digite o Nome: ')
-    encontrou = False
-    with open('nomes.txt', 'r+', newline='', encoding='utf-8') as arquivo:
-        for nome in arquivo:
-            if nome.replace('\n', '') == nome_digitado:
-                print(f'Encontrei o nome digitado => {nome_digitado}')
-                encontrou = True
-                break
-
-        if encontrou == False:
-            print(
-                f'O nome {nome_digitado} não foi encontrado. Incluido no arquivo')
-            arquivo.write(nome_digitado + os.linesep)
-
-    continuar = True if input('Continuar? ') != '' else False
-    print('')
-
+# [E] ARQUIVOS TXT E OUTROS - criar vários arquivos simultaneamente (mp3, mp4, xlsx, jgp)
 
 # ============================================================================================
 
 # MÓDULO 6 - TRATAMENTO DE ERROS E EXCESSÕES
 
-# [C] Logging - é uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
+# ✅ [C] Logging - é uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
 # [C] ERROS DE SINTAXE - também conhecidos como erros de parse
 # [C] EXCEÇÕES - detectados durante a execução
 # [C] Níveis de Logging - 'debug' - passar informações para os desenvolvedores.
