@@ -4,33 +4,46 @@
 
 
 """
-É uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
-
-Níveis de Logging:
-
--> 'debug' - passar informações para os desenvolvedores.
--> 'info' - informar algo que está acontecendo, mas que não é um erro.
--> 'warning' - alertar sobre algo, possivelmente fora do esperado, porém,
-   ainda não é um erro, mas pode gerar futuramente.
--> 'error' - um erro que aconteceu na aplicação. 
--> 'critical' - um erro com consequências graves.
+Log é uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
 
 Os níveis de logging são uma maneira mais organizada de guardar informações de texto 
 dentro da aplicação.
 
-Por padrão irá exibir apenas as mensagens do nível 'warning' para cima. Para
-alterarmos o nível padrão, utilizamos o 'basicConfig'.
+NÍVEIS DE LOGGING:
 
-'level' é o que defini o nível mínimo de logging para que a mensagem seja
-impressa no terminal
+    "logging.debug"
+    Passar informações para os desenvolvedores a fim de diagnosticar problemas.
+
+    "logging.info"
+    Informar que as coisas estão acontencendo como esperado.
+
+    "logging.warning"
+    Alertar sobre algo fora do esperado, porém, ainda não é um erro, mas pode gerar 
+    um futuramente. É muito utilizado pelas bibliotecas quando se faz a sua instalação.
+
+    "loggin.error"
+    Um erro que aconteceu na aplicação onde o software não conseguiu executar alguma 
+    função, como um botão que não está funcionando em um site, por exemplo. Ele impede 
+    que apenas uma funcionalidade específica pare de funcionar. 
+
+    "logging.critical"
+    Um erro com consequências graves que pode impedir a execução total do programa.
+
+Por padrão o módulo logging irá exibir no terminal apenas as mensagens do nível 
+'warning' para cima. Para alterarmos o nível padrão, utilizamos a função 'basicConfig'.
+
+'level' é o que define o nível mínimo de logging para impressão no terminal
 """
 
 
 import logging
 
 
-logging.basicConfig(level=logging.DEBUG, filename='06 - Tratamento de Erros e Exceções/cadastro.log',
-                    filemode='a', format='%(levelname)s - %(message)s - %(asctime)s', encoding='utf-8')
+logging.basicConfig(
+    level=logging.DEBUG, filename='cadastro.log',
+    filemode='a',
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    encoding='utf-8')
 
 
 try:
@@ -40,6 +53,11 @@ try:
     if senha == 1234:
         print('Login realizado com sucesso')
         logging.info(f'{email} entrou em sua conta bancária')
+    else:
+        print('Senha Inválida')
+        logging.warning(f'Usuário {email} digitou uma senha inválida')
 except ValueError as erro:
     print('Digite apenas números')
-    logging.info(erro)
+    logging.error(erro)
+finally:
+    print('<<< PROGRAMA ENCERRADO >>>')

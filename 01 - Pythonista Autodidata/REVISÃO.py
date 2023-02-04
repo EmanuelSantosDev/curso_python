@@ -185,7 +185,7 @@
 
 # MÓDULO 6 - TRATAMENTO DE ERROS E EXCESSÕES
 
-# ✅ [C] Logging - é uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
+# [C] Logging - é uma forma de registrar o que aconteceu e o que está acontecendo na aplicação.
 # [C] ERROS DE SINTAXE - também conhecidos como erros de parse
 # [C] EXCEÇÕES - detectados durante a execução
 # [C] Níveis de Logging - 'debug' - passar informações para os desenvolvedores.
@@ -201,7 +201,7 @@
 
 # MÓDULO 7 - CLASSES E ORIENTAÇÃO À OBJETOS
 
-# [E] Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
+# ✅[E] Inicializar uma classe com ATRIBUTOS DA INSTÂNCIA
 # [E] Incluir ATRIBUTOS DA CLASSE
 # [E] Incluir MÉTODOS COMUNS que acessam as propriedades da instância
 # [E] Incluir MÉTODOS DA CLASSE que alteram a forma como uma classe é inicializada
