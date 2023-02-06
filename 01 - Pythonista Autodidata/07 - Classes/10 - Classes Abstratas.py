@@ -3,13 +3,16 @@
 # ------------------------------------------------------------------------------------
 
 
-# é uma maneira de garantir a funcionalidade correta e previsivel do programa
-# são uma maneira de criar um "contrato" (esqueleto) obrigando que algo seja...
-# ...implementado nas classes filhas
-# no exemplo abaixo definimos um método abstrato, mas poderíamos também definir...
-# ... propriedades abstratas ou até mesmo uma classe completa abstrata
+# Abstração é o conceito em programação orientada a objetos que é usado para...
+# ...esconder a funcionalidade interna das classes para os usuários.
+# No contexto da programação, a Abstração é utilizada para facilitar a vida de...
+# ...outros desenvolvedores. Não precisamos saber como a função sort() funciona.
+# Uma classe que contém um ou mais Métodos Abstratos é chamada de Classe Abstrata
+# Uma classe abstrata não pode ser instanciada e deve conter pelo menos um método abstrato
 # o módulo "abc" fornece a infraestrutura para definir classes abstratas (ABCs)
-# ABC (Abstract Base Classes)
+# ABC = Abstract Base Class)
+# cria um projeto (esqueleto) das nossas classes e são úteis em situações em que as...
+# classes filhas devem fornecer sua própria implementação separadamente.
 
 
 from abc import ABC, abstractmethod

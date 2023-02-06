@@ -2,6 +2,7 @@
 
 # MÓDULO 1 - RECEBER E TRABALHAR COM DADOS
 
+# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # [E] Descobrir se o tipo de dado se é float, int, etc...
 # [E] Realizar o Unpacking
 # [E] Print de Múltiplas Linhas
@@ -123,7 +124,7 @@
 # [E] Processando Múltiplas Listas - iterar sobre duas listas simultaneamente
 # [E] Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (descartando as posições faltantes)
 # [E] Processando Múltiplas Listas - iterar sobre duas listas com quantidade de items diferente (considerando as posições diferentes como 'none')
-# ✅ [C] Dicionário - Utiliza o padrão 'chave:valor'
+# [C] Dicionário - Utiliza o padrão 'chave:valor'
 # [E] Dicionário - criar um dicionário manualmente
 # [E] Dicionário - criar um dicionário utilizando um método apropriado
 # [E] Dicionário - acessar uma propriedade de um dicionário
@@ -206,22 +207,17 @@
 # [E] Incluir MÉTODOS COMUNS que acessam as propriedades da instância
 # [E] Incluir MÉTODOS DA CLASSE que alteram a forma como uma classe é inicializada
 # [E] Incluir MÉTODOS ESTÁTICOS que agrupam funcionalidades de código
-# ✅ [C] Herança Simples - toda classe em python herda de uma classe chamada de "object"
-# [E] Herança Simples - herda os métodos e atributos da classe pai + tem seus PRÓPRIOS métodos e atributos
+# [C] Herança Simples - toda classe em python herda de uma classe chamada de "object"
+# [E] Herança Simples - passando atributos para a classe superior + tem seus PRÓPRIOS métodos e atributos
 # [E] Herança Simples - SOBRESCREVER método da classe pai
 # [E] Herança Simples - verificar se uma classe é instância de uma classe pai
-
-
-
-
-
-# [C] Herança Multinivel - devemos evitá-la, pois pode tornar o código completo e dificil de interpretar
+# [C] Herança Multinivel - devemos evitá-la, pois pode tornar o código complexo e dificil de interpretar
 # [C] Herança Múltipla - util para criar novas classes, sem precisar reescrever funcionalidades existentes
 # [C] Herança Múltipla - muito útil quando estamos usando classes altamente relacionadas e que fazem ou usam as mesmas funcionalidades
 # [E] Herança Múltipla - criar uma classe com Herança Múltipla
 # [C] Herança Múltipla - o Python usa algo chamado MRO (Method Resolution Ordem). É ele quem define a propriedade ou função que será acessada primeiro.
 # [E] Herança Múltipla - aplicar o método para descobrir o MRO da classe que recebe herança múltipla
-# [C] Métodos Mágicos - também chamados de Double Underscore
+# [C] Métodos Mágicos - também chamados de Dunder ou Double Underscore
 # [C] Métodos Mágicos - são métodos que executam automaticamente quando efetuamos alguma rotina específica
 # [E] Métodos Mágicos - método que determina o que deve ser mensurado para se obter a quantidade(comprimento) de uma determinada classe
 # [E] Métodos Mágicos - método que cria uma representação do objeto para o programador no console do Python.
@@ -230,8 +226,7 @@
 # [C] Classes Abstratas - são uma maneira de criar um "contrato" (esqueleto) obrigando que algo seja implementado nas classes filhas
 # [E] Classes Abstratas - criar uma classe abstrata com um método abstrato
 # [C] Polimorfismo - quer dizer que algo pode funcionar de formas diferentes dependendo do contexto
-# [E] Polimorfismo - criar uma função polimórfica (fora de uma classe)
-# [E] Polimorfismo - criar uma função polimórfica (dentro de uma classe)
+# [E] Polimorfismo - criar uma função polimórfica que recebe dois objetos (carro e moto) e executa uma função com mesmo nome, mas saídas diferentes
 # [E] Polimorfismo - criar uma função polimórfica (dentro de uma classe) onde transformamos os argumentos extras em argumentos opcionais
 # [C] Quando Usar Classes - 1º CENÁRIO -> Escrevendo programas e rotinas simples que raramente mudam e, em geral possuem poucas linhas? NÃO USE FUNÇÕES OU CLASSES
 # [C] Quando Usar Classes - 2º CENÁRIO -> Tendo que reescrever a mesma funcionalidade mais de uma vez? USE FUNÇÕES

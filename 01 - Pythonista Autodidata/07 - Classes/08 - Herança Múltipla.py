@@ -4,8 +4,8 @@
 
 
 # util para criar novas classes, sem precisar reescrever funcionalidades existentes
-# muito útil quando estamos usando classes altamente relacionadas...
-# ...e que fazem ou usam as mesmas funcionalidades
+# muito útil quando estamos usando classes altamente relacionadas e que fazem ou...
+# ...usam as mesmas funcionalidades
 
 
 class Pessoa:

@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------------
-# Métodos Mágicos - Double Underscore
+# Métodos Mágicos - Dunder - Double Underscore
 # ------------------------------------------------------------------------------------
 
 
@@ -28,11 +28,11 @@ class Pessoa:
         self.nome = 'Pessoa'
         self.habilidades = ['Pular', 'Correr', 'Salvar', 'Falar']
 
-    def __repr__(self):
-        return 'Classe Pessoa com propriedades "nome" e "habilidades"'
-
     def __len__(self):
         return len(self.habilidades)
+        
+    def __repr__(self):
+        return 'Classe Pessoa com propriedades "nome" e "habilidades"'
 
     def __str__(self):
         return f'{self.nome} com as habilidades {self.habilidades}'

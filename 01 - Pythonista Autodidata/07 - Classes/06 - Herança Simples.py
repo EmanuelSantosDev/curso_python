@@ -60,13 +60,21 @@ class GoPro(Camera):
 go_pro = GoPro('Canon', 25)
 
 
-# Foto tirada com a camera Canon com a qualidade de 25 megapixels com resolução de 8K
 go_pro.tirar_foto(8)
+# Foto tirada com a camera Canon com a qualidade de 25 megapixels com resolução de 8K
 
 
 # ------------------------------------------------------------------------------------
-# Verificando se uma Classe é instância de outra
+# Verificando se uma CLASSE derivada de outra CLASSE
 # ------------------------------------------------------------------------------------
 
 
 print(issubclass(CameraCelular, Camera))  # True
+
+
+# ------------------------------------------------------------------------------------
+# Verificando se uma INSTANCIA é derivada de uma CLASSE
+# ------------------------------------------------------------------------------------
+
+
+print(isinstance(go_pro, GoPro))
