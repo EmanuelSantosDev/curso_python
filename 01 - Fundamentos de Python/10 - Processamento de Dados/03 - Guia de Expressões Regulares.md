@@ -131,3 +131,120 @@ Neste nosso exemplo queremos encontrar os padrõs **zoe** e **zue**:
 ![img](img/18.png)
 
 
+## Encontrando Uma ou mais Repetições
+
+O caractere que precede o sinal de ``+`` pode ocorrer 1 ou mais vezes:
+
+    de+
+
+![img](img/19.png)
+
+
+## Encontrando Combinações Onde o "Restante" (antes ou depois) pode ser Qualquer Combinação
+
+    enc.*
+
+![img](img/20.png)
+
+
+    .*cont
+
+![img](img/21.png)
+
+
+# Pode ou Não Ter o Caractere que Precede o "?"
+
+    arquivos?
+
+![img](img/22.png)
+
+
+A primeira palavra pode ou não estar no plural, porém, a segunda obrigatoriamente tem que estar no plural:
+
+    arquivos? baixados
+
+![img](img/24.png)
+
+
+Se for necessário localizar o "?", faz se o escape dele utilizando ``\?``:
+
+    \?
+
+![img](img/23.png)
+
+
+## Identificando Espaços em Branco
+
+
+**Espaço Simples**
+
+    *inserir literalmente um ou mais espaços em branco*
+
+![img](img/25.png)
+
+**Nova Linha**
+
+    \n
+
+![img](img/26.png)
+
+**Tab**
+
+O VSCode não consegue identificar, mas funciona no código:
+
+    \t
+
+**Enter** 
+
+O VSCode não consegue identificar, mas funciona no código:
+
+    \r
+
+**Qualquer Tipo de Espaço em Branco** 
+
+    \s
+
+![img](img/27.png)
+
+
+## Combinando Caracteres com Espaço em Branco
+
+Padrão que queremos encontrar: _dígito + ponto + um ou mais espaços em branco + olá_
+
+    \d\.\s+olá
+
+![img](img/28.png)
+
+
+## Declarando Inicio e Fim
+
+Utilizamos delimitadores que criam um regex mais preciso:
+
+    ^hora de codar$
+
+![img](img/29.png)
+
+
+## Capturando Grupos
+
+Capturando grupos de caracteres que contenham: _imagem + qualquer sequência de caracteres + ponto + jpg_
+
+    (imagem.+\.)(jpg)
+
+![img](img/30.png)
+
+
+## Capturando um Subgrupo
+
+Encontrando e-mails com final **"com OU com.br"** (temos dois subgrupos):
+
+    (\w+)(@\w+\.)(com\.br|com)
+
+![img](img/31.png)
+
+
+## Capturando os 3 Grupos de um Telefone:
+
+    ([(]\d{2}[)])(\d{5})([-]\d{4})
+
+![img](img/32.png)
