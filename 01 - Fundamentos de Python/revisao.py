@@ -2,7 +2,6 @@
 
 # MÓDULO 1 - RECEBER E TRABALHAR COM DADOS
 
-# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # Descobrir se o tipo de dado se é float, int, etc...
 # Realizar o Unpacking
 # Print de Múltiplas Linhas
@@ -210,14 +209,23 @@
 
 # MÓDULO 9 - PROCESSAMENTO DE DADOS AVANÇADO
 
+# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅?
 # List Comprehension - [elemento + for]
 # List Comprehension - [função(elemento) + for]
-# List Comprehension - [[elemento + for] for] => Gerando uma Matriz 
-# List Comprehension - [elemento + for + if] 
+# List Comprehension - [[elemento + for] for] => Gerando uma Matriz
+# List Comprehension - [elemento + for + if]
 # List Comprehension - [elemento + if + else + elemento + for]
 # Dictionary Comprehension - {chave:valor + for}
 # Dictionary Comprehension - {chave: [valor_tipo_lista + for] + for}
-# Expressões Regulares - Ler o Guia 
+# Expressões Regulares - Ler o Guia
+# Expressões Regulares com Python - método que cria um padrão
+# Expressões Regulares com Python - método que devolve um objecto se e só se a string inteira corresponder ao padrão
+# Expressões Regulares com Python - método que devolve um objeto se houver uma correspondência em qualquer parte da string
+# Expressões Regulares com Python - método que devolve uma lista com todas as ocorrências encontradas
+# Expressões Regulares com Python - método que divide a string a partir de um padrão específico
+# Expressões Regulares com Python - método que substitui o padrão encontrado, por outro
+# Threads - criar um código com 3 funções (as 2 primeiras rodam em concorrência)
+# Multithreading - criar um código com 2 funções (a primeira será executada em multithreading)
 
 # ============================================================================================
 
