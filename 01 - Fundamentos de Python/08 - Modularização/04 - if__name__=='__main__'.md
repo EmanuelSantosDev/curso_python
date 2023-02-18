@@ -2,7 +2,7 @@
 
 
 
-- O conteúdo da estrutura if ``__name__=="__main__"`` será ativado somente quando estiver sendo executado o próprio módulo que o contém, sem importação.
+- O conteúdo da estrutura ``if __name__=="__main__"`` será ativado somente quando estiver sendo executado o próprio módulo que o contém, sem importação.
 - Ao rodar um arquivo em Python ele automaticamente define a variável ``__name__`` que é uma variável reservada do Python.
 - Quando fazemos uma execução direta no próprio módulo ele atribui o valor ``__main__`` para essa variável, caso contrário ela vai receber o nome do módulo.
 - É util para a checagem de escopo de execução.
