@@ -1,8 +1,7 @@
-# ------------------------------------------------------------------------------------
 # Importando Módulos
-# ------------------------------------------------------------------------------------
 
 
+```python
 # Importação Padrão
 from processamento_de_audio import aumentar_volume, diminuir_volume
 
@@ -11,3 +10,4 @@ from processamento_de_audio import *
 
 # Atribuindo apelido
 from processamento_de_audio import aumentar_volume as av, diminuir_volume as dv
+```
