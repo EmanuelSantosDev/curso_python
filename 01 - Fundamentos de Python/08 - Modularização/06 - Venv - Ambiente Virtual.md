@@ -10,7 +10,7 @@
 - ``Set-ExecutionPolicy`` define as políticas de execução do PowerShell para computadores Windows. 
 
 
-### Como habilitar a permissão para a execução de scripts
+### Habilitando a permissão para a execução de scripts
 
     (Abrir PowerShell como Administrador)
     Set-ExecutionPolicy Unrestricted -Force
@@ -25,13 +25,14 @@ Navegar no PowerShell até o diretório que deseja iniciar o projeto:
 
     [nome_ambiente_virtual}\Scripts\activate
 
+## Desativando o Ambiente Virtual
+
+    deactivate
+    
 ## Criando a Lista de Requisitos de Dependências
 
     pip freeze > requirements.txt
 
-## Desativando o Ambiente Virtual
-
-    deactivate
 
 ## Instalando as Dependências Definidas em requirements.txt
 
