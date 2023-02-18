@@ -99,6 +99,8 @@ Encontrar todas as palavras com 3 caracteres no total, que iniciam tanto com "o"
 
 O `\w` representa todas as letras de "a" a "z" em maiúsculo ou minúsculo e também todos os números de 0 a 9.
 
+    \w
+
 ![img](img/13.png)
 
 
@@ -160,21 +162,24 @@ O caractere que precede o sinal de ``+`` pode ocorrer 1 ou mais vezes:
 
 
 ---
-## Pode ou Não Ter o Caractere que Precede o "?"
+## Pode ou Não Ter o Caractere que Precede
+
+Pode ou Não Ter o Caractere que Precede o "?"
 
     arquivos?
 
 ![img](img/22.png)
 
 
-A primeira palavra pode ou não estar no plural, porém, a segunda obrigatoriamente tem que estar no plural:
+Neste segundo exemplo, a primeira palavra pode ou não estar no plural, porém, a segunda obrigatoriamente tem que estar no plural:
 
     arquivos? baixados
 
 ![img](img/24.png)
 
 
-Se for necessário localizar o "?", faz se o escape dele utilizando ``\?``:
+---
+## Escapando o "?"
 
     \?
 
