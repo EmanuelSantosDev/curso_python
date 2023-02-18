@@ -3,6 +3,7 @@
 
 **Regex**, **Expressões Regulares** ou **Regular Expression** são padrões utilizados para identificar determinadas combinações caracteres 
 
+
 ---
 ## Encontrando o Valor Exato:
 
@@ -95,7 +96,7 @@ Encontrar todas as palavras com 3 caracteres no total, que iniciam tanto com "o"
 
 
 ---
-## Identificando apenas Letras e Números (que não contém acentos latinos)
+## Identificando Caracteres Alfanuméricos (que não contém acentos latinos)
 
 O `\w` representa todas as letras de "a" a "z" em maiúsculo ou minúsculo e também todos os números de 0 a 9.
 
@@ -103,6 +104,13 @@ O `\w` representa todas as letras de "a" a "z" em maiúsculo ou minúsculo e tam
 
 ![img](img/13.png)
 
+
+---
+## Identificando Caracteres NÃO Alfanuméricos 
+
+    \W
+
+![img](img/33.png)
 
 ---
 ## Encontrando Repetições de um Padrão mais Rapidamente

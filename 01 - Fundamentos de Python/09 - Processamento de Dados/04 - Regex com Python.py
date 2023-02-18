@@ -7,48 +7,65 @@ import re
 
 
 # ------------------------------------------------------------------------------------
-# Findall
+# compile (cria um padrão)
 # ------------------------------------------------------------------------------------
 
 
-# retorna todas as ocorrências que inicial com "bl"
-texto = "black, blue and brown"
-expressao = r'bl\w+'
-localizados = re.findall(expressao, texto)
-print(localizados)  # ['black', 'blue']
+padrao = re.compile('python')
+string1 = 'python'
+string2 = 'python python'
 
 
 # ------------------------------------------------------------------------------------
-# Search
+# fullmatch (devolve um objecto se e só se a string inteira corresponder ao padrão)
 # ------------------------------------------------------------------------------------
 
 
-# Retorna um objeto "Match" se houver uma correspondência em qualquer lugar da string
-# Procurando o primeiro caractere de espaço em branco na string:
-texto = "The rain in Spain"
-expressao = r"\s"
-x = re.search(expressao, texto)
-print(x)  # <re.Match object; span=(3, 4), match=' '>
-print(f'Posição Inicial = {x.start()}')  # Posição Inicial = 3
+x = re.fullmatch(padrao, string1)  #
+y = re.fullmatch(padrao, string2)  #
+print(x)  # <re.Match object; span=(0, 6), match='python'>
+print(y)  # None
 
 
 # ------------------------------------------------------------------------------------
-# Split
+# search (devolve um objeto se houver uma correspondência em qualquer parte da string)
 # ------------------------------------------------------------------------------------
 
 
-email = 'carol@gmail.com.br'
-expressao = r"(@.{1,8}\.)"
-resultado = re.split(expressao, email)
+x = re.search(padrao, string1)
+y = re.search(padrao, string2)
+print(x)  # <re.Match object; span=(0, 6), match='python'>
+print(y)  # <re.Match object; span=(0, 6), match='python'>
+
+
+# ------------------------------------------------------------------------------------
+# findall (devolve uma lista com todas as ocorrências encontradas)
+# ------------------------------------------------------------------------------------
+
+
+x = re.findall(padrao, string1)
+y = re.findall(padrao, string2)
+print(x)  # ['python']
+print(y)  # ['python', 'python']
+
+
+# ------------------------------------------------------------------------------------
+# split (divide a string a partir de um padrão específico)
+# ------------------------------------------------------------------------------------
+
+
+string = 'carol@gmail.com.br'
+padrao = re.compile('([@].{1,8}\.)')
+resultado = re.split(padrao, string)
 print(resultado)  # ['carol', '@gmail.', 'com.br']
 
 
 # ------------------------------------------------------------------------------------
-# Sub
+# sub (substitui o padrão encontrado, por outro)
 # ------------------------------------------------------------------------------------
 
 
-email = 'carol@gmail.com.br'
-expressao = r"(@.{1,8}\.)"
-resultado = re.sub(expressao, '@yahoo.', email)
+string = 'carol@gmail.com.br'
+padrao = re.compile('(@.{1,8}\.)')
+resultado = re.sub(padrao, '@yahoo.', string)
 print(resultado)  # carol@yahoo.com.br

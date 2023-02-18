@@ -217,6 +217,7 @@
 # List Comprehension - [elemento + if + else + elemento + for]
 # Dictionary Comprehension - {chave:valor + for}
 # Dictionary Comprehension - {chave: [valor_tipo_lista + for] + for}
+# Expressões Regulares - Ler o Guia 
 
 # ============================================================================================
 
