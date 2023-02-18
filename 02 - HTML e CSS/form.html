@@ -7,12 +7,60 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label {
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
 
+    <!-- Tag de Estrutura de Formulário -->
     <form action="#" method="get" target="_blank">
-        <h1>Formulário</h1>
+
+        <!-- Input Básico de Texto -->
+        <p>
+            <label for="nome">Nome:</label>
+            <!-- Input com Placeholder -->
+            <input type="text" name="nome" id="nome" placeholder="Seu nome aqui">
+            <!-- Input com Valor Padrão -->
+            <input type="text" name="nome" id="nome" value="Silvio Santos">
+            <!-- Input Desabilitado -->
+            <input type="text" name="nome" id="nome" disabled>
+        </p>
+
+        <!-- Input de Checkbox -->
+        <p>
+            <label for="dev">Sou um Dev 1?</label>
+            <input type="checkbox" id="dev1" name="dev1" value="sim" checked>
+            <label for="dev">Sou um Dev 2?</label>
+            <input type="checkbox" id="dev2" name="dev2" value="sim">
+            <label for="dev">Sou um Dev 3?</label>
+            <input type="checkbox" id="dev3" name="dev3" value="sim">
+        </p>
+
+        <!-- Input de Radio -->
+        <p>
+            <!-- o atributo "name" irá agrupá-los, pois podemos ter apenas -->
+            <!-- uma única resposta -->
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">feminino </label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">masculino </label>
+            <input type="radio" id="indefinido" name="genero" value="indefinido">
+            <label for="indefinido">indefinido </label>
+        </p>
+
+        <!-- Botões -->
+        <p>
+            <!-- Botão de Submit -->
+            <button type="submit">Enviar</button>
+            <!-- Botão de Reset -->
+            <button type="reset">Resetar</button>
+        </p>
+
     </form>
 
 </body>
