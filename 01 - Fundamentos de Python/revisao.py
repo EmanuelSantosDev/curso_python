@@ -203,5 +203,24 @@
 # MÓDULO 8 - MODULARIZAÇÃO
 
 # Variavel __name__
+# Criar um Package
+# Criar um Ambiente Virtual com arquivo que armazena as dependências do projeto
+
+# ============================================================================================
+
+# MÓDULO 9 - PROCESSAMENTO DE DADOS AVANÇADO
+
+# List Comprehension - [elemento + for]
+# List Comprehension - [função(elemento) + for]
+# List Comprehension - [[elemento + for] for] => Gerando uma Matriz 
+# List Comprehension - [elemento + for + if] 
+# List Comprehension - [elemento + if + else + elemento + for]
+# 
+
+# ============================================================================================
+
+# MÓDULO 10 - EXECUTÁVEIS E INSTALADORES
+
+# [APENAS LEITURA]
 
 # ============================================================================================
