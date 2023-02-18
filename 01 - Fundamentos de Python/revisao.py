@@ -197,3 +197,11 @@
 # Classes Abstratas - criar uma classe abstrata com um método abstrato
 # Polimorfismo - criar uma função polimórfica que recebe dois objetos (carro e moto) e executa uma função com mesmo nome, mas saídas diferentes
 # Polimorfismo - criar uma função polimórfica (dentro de uma classe) onde transformamos os argumentos extras em argumentos opcionais
+
+# ============================================================================================
+
+# MÓDULO 8 - MODULARIZAÇÃO
+
+# [SOMENTE LEITURA]
+
+# ============================================================================================
