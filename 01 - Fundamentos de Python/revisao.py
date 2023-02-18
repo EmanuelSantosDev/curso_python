@@ -215,7 +215,8 @@
 # List Comprehension - [[elemento + for] for] => Gerando uma Matriz 
 # List Comprehension - [elemento + for + if] 
 # List Comprehension - [elemento + if + else + elemento + for]
-# 
+# Dictionary Comprehension - {chave:valor + for}
+# Dictionary Comprehension - {chave: [valor_tipo_lista + for] + for}
 
 # ============================================================================================
 
