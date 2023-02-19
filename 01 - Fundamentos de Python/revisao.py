@@ -2,6 +2,7 @@
 
 # MÓDULO 1 - RECEBER E TRABALHAR COM DADOS
 
+# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # Descobrir se o tipo de dado se é float, int, etc...
 # Realizar o Unpacking
 # Print de Múltiplas Linhas
@@ -207,12 +208,7 @@
 
 # Variavel __name__
 # Criar um Package
-# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # Criar um Ambiente Virtual com arquivo que armazena as dependências do projeto
-
-
-
-
 
 # ============================================================================================
 
@@ -233,7 +229,7 @@
 # Expressões Regulares com Python - método que divide a string a partir de um padrão específico
 # Expressões Regulares com Python - método que substitui o padrão encontrado, por outro
 # Threads - criar um código com 3 funções (as 2 primeiras rodam em concorrência)
-# Multithreading - criar um código com 2 funções (a primeira será executada em multithreading)
+# Multithreading - criar um código com 2 funções (a primeira será executada em multithreading) + imprimir o nome da thread
 
 # ============================================================================================
 
