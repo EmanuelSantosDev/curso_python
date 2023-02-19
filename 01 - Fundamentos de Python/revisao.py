@@ -49,6 +49,10 @@
 # Números Aleatórios (selecionar de FORMA ELEATÓRIA E MÚLTIPLA  dentro de uma LISTA)
 # Números Aleatórios (EMBARALHAR os ítems de uma lista)
 # Debugar o Código (usar também o console de debug)
+# Formatar Números - Definindo a Quantidade de Casas Decimais
+# Formatar Números - Incluindo o Separador de Milhar
+# Formatar Números - Formatando para o Real Brasileiro
+# Formatar Números - Formatando para Percentual
 
 # ============================================================================================
 
@@ -201,10 +205,14 @@
 
 # MÓDULO 8 - MODULARIZAÇÃO
 
-# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # Variavel __name__
 # Criar um Package
+# ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
 # Criar um Ambiente Virtual com arquivo que armazena as dependências do projeto
+
+
+
+
 
 # ============================================================================================
 
