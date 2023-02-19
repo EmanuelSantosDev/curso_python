@@ -4,6 +4,35 @@
 **Regex**, **Expressões Regulares** ou **Regular Expression** são padrões utilizados para identificar determinadas combinações caracteres 
 
 
+## Tabela Resumo
+
+|Caractere|Ação de Captura|
+|:---:|:-----|
+|.| representa qualquer caracter menos "\n"|
+|\\.| escapando o caractere "."|
+|[ ]| representa qualquer valor contido dentro (conjunto de possibilidades)|
+|^| representa o inicio da string|
+|$| representa o final da string|
+|[^]| diferente de um caractere|
+|\w| é alfanumérico (não considera caracteres latinos como "ç" e "ã")|
+|\W| não é alfanumérico|
+|\s| caracter vazio|
+|\S| caracter NÃO vazio|
+|\d| números de 0 a 9|
+|\D| tudo que NÃO é número|
+|[1-9]| range de números
+|[a-z]| range de letras minúsculas|
+|[A-Z]| range de letras maiúsculas|
+|[a-cA-Z1-5]| mesclando os ranges ( a-c + A-Z + 1-5 )|
+|+| uma ou mais vezes|
+|*| zero ou mais vezes|
+|?| zero ou uma vez|
+|\\?| escapando o caractere "?"|
+|{x}| se repete "x" vezes|
+|{x, y}| mínino de "x" e máximo de "y" repetições|
+|( )|  captura subgrupos|
+|\||  condicional OU. Exemplo: (com\\.br\|com)|
+
 ---
 ## Encontrando o Valor Exato:
 
