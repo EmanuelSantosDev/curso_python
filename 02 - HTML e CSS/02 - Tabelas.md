@@ -1,24 +1,35 @@
-<!-- 
+# Tabelas
 
-Propriedades CSS:
+## Propriedades CSS:
 
-table { border-collapse: collapse; }
-caption { caption-side: bottom; } 
+````css
+table { 
+    border-collapse: collapse; 
+}
+
+caption {
+    caption-side: bottom; 
+} 
+````
+
+## Atributos HTML:
+
+````html
+colspan="2" 
+rowspan="2"  
+````
     
-Tornando uma tabela responsiva no celular:
+## Tornando uma tabela responsiva no celular:
 
+````css
 .responsive-table{
     max-width: 100%;
     overflow-x: auto;
 }
+````
 
-Propriedades HTML:
 
-colspan="2" 
-rowspan="2"  
-
--->
-
+````html
 <div class="responsive-table">
     <table>
         <caption>Descrição da Tabela</caption>
@@ -52,3 +63,4 @@ rowspan="2"
         </tfoot>
     </table>
 </div>
+````
