@@ -27,30 +27,4 @@ print(professor)
 del professor['cursos']
 print(professor)
 # {'nome': 'Alberto', 'sexo': 'masculino', 'universidade': 'Unilasalle'}
-
-
-# obtendo as CHAVES disponiveis no dicionário
-print(pessoa.keys())  # dict_keys(['nome', 'idade', 'altura'])
-
-
-# obtendo os VALORES disponíveis no dicionário
-print(pessoa.values())  # dict_values(['Bianca', 23, 1.52])
-
-
-# obtendo CHAVES e VALORES disponíveis no dicionário
-print(pessoa.items())
-# dict_items([('nome', 'Bianca'), ('idade', 23), ('altura', 1.52)])
-
-
-# Iterando sobre um Dicionário
-for item in pessoa.items():
-    print(item)
-    print(item[1])
-    
-# ('nome', 'Bianca')
-# Bianca
-# ('idade', 23)
-# 23
-# ('altura', 1.52)
-# 1.52
 ````

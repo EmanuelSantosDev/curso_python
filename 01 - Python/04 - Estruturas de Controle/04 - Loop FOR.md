@@ -1,9 +1,8 @@
-# ------------------------------------------------------------------------------------
 # Laço FOR
-# ------------------------------------------------------------------------------------
 
 
-# O laço for não inclui o último valor:
+````python
+# O objeto range() inclui o último valor:
 for numero in range(5):
     print(f'carregando {numero}')
 '''
@@ -53,3 +52,4 @@ NOME: Sabrina
 NOME: Ariel
 NOME: Jonny
 '''
+````
