@@ -1,0 +1,12 @@
+Maria,45
+João,33
+Pedro,63
+Ana,21
+Bia,40
+Carlos,14
+Roberto,45
+Flávio,38
+Neymar,29
+Pikachu,12
+Charmander,9
+Squirtle,8
