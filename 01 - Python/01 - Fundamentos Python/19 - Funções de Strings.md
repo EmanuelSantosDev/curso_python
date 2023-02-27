@@ -18,6 +18,10 @@ nome_do_curso = '   Edição de Vídeo   '
 print(nome_do_curso.strip())   # Edição de Vídeo
 print(nome_do_curso.lstrip())  # Edição de Vídeo
 print(nome_do_curso.rstrip())  #    Edição de Vídeo
+
+# retirando os "0" e os "espaços em branco"
+palavra = '000 123 abc 000'
+print(palavra.strip('0').strip()) 
 ````
 
 ## find()
