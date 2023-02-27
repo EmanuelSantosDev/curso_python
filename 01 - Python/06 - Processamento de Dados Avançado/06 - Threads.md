@@ -1,15 +1,14 @@
-# ------------------------------------------------------------------------------------
 # Threads
-# ------------------------------------------------------------------------------------
 
 
-# uma "thread" é um fluxo separado de execução
-# isso significa que seu programa terá duas ou mais coisas acontecendo ao mesmo tempo
-# os fluxos podem ser executados de forma concorrente
-# cada Thread roda dentro de seu próprio espaço
-# se uma das Threads der erro, não impedirá a execução das demais
+- uma **thread** é um fluxo separado de execução
+- isso significa que seu programa terá duas ou mais coisas acontecendo ao mesmo tempo
+- os fluxos podem ser executados de forma concorrente
+- cada Thread roda dentro de seu próprio espaço
+- se uma das Threads der erro, não impedirá a execução das demais
 
 
+````python
 import threading
 import webbrowser
 import time
@@ -92,3 +91,4 @@ Processando dados - 20/20
 Finalizando extração de dados do site
 TABULAÇÃO DE DADOS: Vou ser executado somente após finalizar a nova_thread
 """
+````

@@ -1,14 +1,13 @@
-# ------------------------------------------------------------------------------------
 # Multithreading
-# ------------------------------------------------------------------------------------
 
 
-# "Multithreading" é a execução em massa de várias threads em um mesmo processo
-# [thread].name retorna o nome da thread
-# neste exemplo vamos entrar em 10 sites diferentes e deixar um comentário aleatório
-# ou seja, teremos 10 threads executando paralelamente
+- **Multithreading** é a execução em massa de várias threads em um mesmo processo
+- ``thread.name`` retorna o nome da thread
+- neste exemplo vamos entrar em 10 sites diferentes e deixar um comentário aleatório
+- ou seja, teremos 10 threads executando paralelamente
 
 
+````python
 import threading
 import time
 import random
@@ -75,3 +74,4 @@ Dados processados no site: 9
 Dados processados no site: 10
 Dados processados no site: 8
 """
+````

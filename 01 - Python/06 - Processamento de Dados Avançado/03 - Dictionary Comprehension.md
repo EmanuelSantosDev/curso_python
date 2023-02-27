@@ -1,8 +1,6 @@
-# ------------------------------------------------------------------------------------
 # Dictionary Comprehension
-# ------------------------------------------------------------------------------------
 
-
+````python
 from pprint import pprint
 import random
 
@@ -31,3 +29,4 @@ pprint({produto: [random.randint(1, 100) for i in range(5)] for produto in imobi
  'Impressora': [61, 63, 33, 68, 81],
  'Mesa': [90, 3, 71, 53, 2]}
 """
+````

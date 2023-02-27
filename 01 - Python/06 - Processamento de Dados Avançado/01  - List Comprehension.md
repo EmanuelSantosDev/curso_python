@@ -1,14 +1,11 @@
-# ------------------------------------------------------------------------------------
 # List Comprehension
-# ------------------------------------------------------------------------------------
 
 
-# Oferece uma sintaxe mais curta quando você deseja criar uma nova lista com base...
-# ...nos valores de uma lista existente, semelhante à função map()
-from pprint import pprint
+Oferece uma sintaxe mais curta quando se  deseja criar uma nova lista com base nos valores de uma lista existente, semelhante à função ``map()``:
 
 
-# ------------------------------------------------------------------------------------
+````python
+# -----------------------------------------------------------------------------------
 # [elemento + for]
 # ------------------------------------------------------------------------------------
 
@@ -72,3 +69,4 @@ ganhadores = ['Larissa', 'Leonardo']
 print([nome + ' GANHADOR' if nome in ganhadores else nome +
        ' PERDEDOR' for nome in participantes])
 # ['Rafael PERDEDOR', 'Larissa GANHADOR', 'Mônica PERDEDOR', 'Leonardo GANHADOR']
+````

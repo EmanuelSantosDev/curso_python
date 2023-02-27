@@ -1,8 +1,7 @@
-# ------------------------------------------------------------------------------------
 # Regex ou Regular Expression
-# ------------------------------------------------------------------------------------
 
 
+````python
 import re
 
 
@@ -69,3 +68,4 @@ string = 'carol@gmail.com.br'
 padrao = re.compile('(@.{1,8}\.)')
 resultado = re.sub(padrao, '@yahoo.', string)
 print(resultado)  # carol@yahoo.com.br
+````
