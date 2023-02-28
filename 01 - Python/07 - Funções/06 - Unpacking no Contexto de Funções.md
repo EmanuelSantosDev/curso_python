@@ -1,7 +1,9 @@
 # Unpacking no Contexto de Funções
 
+- **Args** e **Kwargs** são parâmetros considerados **Packing**, pois empacotam os argumentos recebidos em Tuplas e Dicionários respectivamente.
+- **Unpacking** é o processo de "desempacotar" Tuplas, Listas e Dicionários na chamada da função.
 
-### No contexto de Lista e Tuplas
+### Unpacking no contexto de Lista e Tuplas
 
 ````python
 def soma(a, b, c):
@@ -15,7 +17,7 @@ numeros2 = (10, 20, 30)
 soma(*numeros2)  # 60
 ````
 
-### No contexto de Dicionários
+### Unpacking no contexto de Dicionários
 
 ````python
 def imprimir_cadastro(nome, idade, profissao):

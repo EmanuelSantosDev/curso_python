@@ -4,6 +4,7 @@
 - em alguns casos não sabemos QUANTOS argumentos a função irá receber
 - esta quantidade X de argumentos são passados no formato de TUPLAS
 - os DEMAIS ARGUMENTOS devem ser NOMEADOS
+- **Args** são parâmetros considerados **Packing**, pois empacotam os argumentos recebidos em uma Tupla
 
 ````python
 def somar(*valores, b):
