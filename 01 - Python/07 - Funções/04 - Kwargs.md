@@ -3,7 +3,7 @@
 
 - são funções com nº ilimitado de argumentos nomeados
 - enquanto os "args" são passados como tuplas, os "kwargs" são passados como DICIONÁRIO
-
+- **Kwargs** são parâmetros considerados **Packing**, pois empacotam os argumentos recebidos em um Dicionário
 
 ````python
 def concatenar(**palavras):
