@@ -20,6 +20,14 @@ numeros = '123456789'
 print(numeros[::])  # 123456789
 print(numeros[::2])  # 13579
 print(numeros[3:6:2])  # 46
+````
+
+## Acessando Índices com Step REVERSO
+
+````python
+numeros = '123456789'
+
+print(numeros[::-1])  # 987654321
 print(numeros[::-2])  # 97531
 ````
 
