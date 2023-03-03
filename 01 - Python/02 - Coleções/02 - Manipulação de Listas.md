@@ -55,4 +55,15 @@ print(lista_contar.count(2))  # 4
 # Resetar uma Lista (excluír todos os seus ítems)
 lista_contar.clear()
 print(lista_contar)  # []
+
+
+# all() retorna True se todos os itens em um iterável 
+# forem verdadeiros, caso contrário, retorna False.
+letras = ['a', 'b', 'c']
+todos_iguais = all(letra == letras[0] for letra in letras)
+print(todos_iguais)  # False
+
+letras = ['a', 'a', 'a']
+todos_iguais = all(letra == letras[0] for letra in letras)
+print(todos_iguais)  # True
 ````
