@@ -1,4 +1,4 @@
-# Método Mágico \_\_str\_\_
+# Método \_\_str\_\_
 
 ````python
 class Data:
