@@ -1,15 +1,40 @@
-# ------------------------------------------------------------------------------------
 # Herança Simples
-# ------------------------------------------------------------------------------------
 
 
-# útil para quando queremos usar funcionalidades similares ou expandir...
-# ...funcionalidades existentes
-# toda classe em python herda de uma classe chamada de "object"
-# poderiamos inicializar nossa classe assim => class Camera (object)
-# o método super() passa a responsabilidade dos atributos herdados para a classe pai
+- Útil para quando queremos usar funcionalidades similares ou expandir funcionalidades existentes.
+- Toda classe em python herda de uma classe chamada de ``object``
+- Poderiamos inicializar nossa classe assim => ``class Camera (object)``
+- O método ``super()`` é uma função que permite acessar e chamar métodos e atributos de uma classe pai (superclasse) a partir de uma classe filha (subclasse).
 
 
+### Exemplo #1
+
+
+````python
+class Animal:
+    def fazer_barulho(self):
+        print('Algum barulho')
+
+
+class Cachorro(Animal):
+    def fazer_barulho(self):
+        # invocando método da classe pai
+        super().fazer_barulho()
+        print('O cachorro late')
+
+
+cachorro = Cachorro()
+cachorro.fazer_barulho()
+# Algum barulho
+# O cachorro late
+````
+
+
+### Exemplo #2
+
+
+
+````python
 class Camera:
     def __init__(self, marca, megapixels):
         self.marca = marca
@@ -21,7 +46,7 @@ class Camera:
 
 
 # ------------------------------------------------------------------------------------
-# CameraCelular herda da classe Camera, mas também possui MÉTODO e ATRIBUTO exclusivo
+# CameraCelular herda da classe Camera, mas também possui MÉTODO e ATRIBUTO exclusivos
 # ------------------------------------------------------------------------------------
 
 
@@ -37,8 +62,8 @@ class CameraCelular(Camera):
 celular = CameraCelular('Sony', 25, 4)
 
 
-print(celular.marca)  # Sony
 print(celular.quantidade_de_cameras)  # 4
+celular.tirar_foto()  # Foto tirada com a camera Sony com a qualidade de 25 megapixels
 celular.aplicar_filtro('Outono')  # Aplicando o filtro Outono
 
 
@@ -58,8 +83,6 @@ class GoPro(Camera):
 
 
 go_pro = GoPro('Canon', 25)
-
-
 go_pro.tirar_foto(8)
 # Foto tirada com a camera Canon com a qualidade de 25 megapixels com resolução de 8K
 
@@ -77,4 +100,5 @@ print(issubclass(CameraCelular, Camera))  # True
 # ------------------------------------------------------------------------------------
 
 
-print(isinstance(go_pro, GoPro))
+print(isinstance(go_pro, GoPro))  # True
+````
