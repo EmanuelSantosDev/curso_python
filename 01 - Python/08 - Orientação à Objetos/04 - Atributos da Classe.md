@@ -1,12 +1,11 @@
-# ------------------------------------------------------------------------------------
-# Classe - Atributos da Classe
-# ------------------------------------------------------------------------------------
+# Atributos da Classe
 
 
-# definem VALORES PADRÕES para uma classe
-# podem ser acessados mesmo que uma instância não tenha sido criada
+- Definem **VALORES PADRÕES** para uma classe
+- Podem ser acessados mesmo que uma instância não tenha sido criada
 
 
+````python
 class Computador:
 
     # Atributos da Classe
@@ -28,3 +27,4 @@ class Computador:
 # Alterando o valor do Atributo da Classe
 Computador.sistema_operacional = 'Linux'
 (print(Computador.sistema_operacional))  # Linux
+````
