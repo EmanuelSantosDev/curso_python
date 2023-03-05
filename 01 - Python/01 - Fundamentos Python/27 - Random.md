@@ -1,10 +1,11 @@
-# ------------------------------------------------------------------------------------
 # Random
-# ------------------------------------------------------------------------------------
+
+
+````python
+import random
 
 
 # gera um valor aleatório de 0.0 a 1.0
-import random
 print(random.random())
 
 
@@ -30,3 +31,4 @@ print(random.choices(times, k=3))
 cartas = ['carta1', 'carta2', 'carta3', 'carta4', 'carta5']
 random.shuffle(cartas)
 print(cartas)
+````

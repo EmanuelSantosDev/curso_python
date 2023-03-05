@@ -1,10 +1,10 @@
-# ------------------------------------------------------------------------------------
-# Datetime e Tempo
-# ------------------------------------------------------------------------------------
+# Datetime
 
 
-# importando apenas a função 'datetime' do módulo 'datetime'
+````python
 from datetime import datetime
+
+
 print(datetime.now())  # 2023-01-12 16:29:22.704860
 print(datetime.now().day)  # 12
 print(datetime.now().month)  # 1
@@ -26,3 +26,4 @@ print(data_de_aniversario)
 data_atual = datetime.now()
 prazo = data_de_aniversario - data_atual
 print(prazo.days)
+````
