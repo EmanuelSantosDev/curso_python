@@ -1,13 +1,13 @@
-# ------------------------------------------------------------------------------------
-# Ordenar Coleções Através de Propriedades
-# ------------------------------------------------------------------------------------
+# Ordenação de Coleções com itemgetter
 
 
-# em listas simples podemos utilizar o método sort()
-# mas em um Dicionário, como fazer?
+- Em listas simples podemos utilizar o método ``sort()``.
+- Mas em um Dicionário, como fazer?
+- ``itemgetter`` é uma função da biblioteca ``operator`` que permite obter um elemento específico de um objeto iterável (como uma lista, tupla ou dicionário) baseado em seu índice ou chave.
+- É possivel ordenar de forma decrescente passando o parâmetro ``reverse=True``.`
 
 
-# importando 'itemgetter'
+````python
 from operator import itemgetter
 
 
@@ -43,15 +43,12 @@ lista_cadastros.sort(key=itemgetter('nome', 'idade'))
 
 for n in lista_cadastros:
     print(n)
-
-"""
-{'nome': 'Beatriz', 'idade': 8}
-{'nome': 'Beatriz', 'idade': 18}
-{'nome': 'Beatriz', 'idade': 22}
-{'nome': 'César', 'idade': 24}
-{'nome': 'Larissa', 'idade': 45}
-{'nome': 'Luis', 'idade': 32}
-"""
+# {'nome': 'Beatriz', 'idade': 8}
+# {'nome': 'Beatriz', 'idade': 18}
+# {'nome': 'Beatriz', 'idade': 22}
+# {'nome': 'César', 'idade': 24}
+# {'nome': 'Larissa', 'idade': 45}
+# {'nome': 'Luis', 'idade': 32}
 
 
 # Ordenando Tuplas (ao invés da key utiliza-se o índice)
@@ -82,3 +79,4 @@ print(matriz)
 # [1, 5],
 # [5, 10],
 # [15, 21]
+````
