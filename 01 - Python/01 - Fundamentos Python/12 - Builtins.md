@@ -5,26 +5,26 @@
 - Com isso o interpretador Python tem uma série de **funções** e **tipos** incorporados que estão sempre disponíveis
 - É nomeado com double-underscore com a finalidade de evitar que o mesmo seja sobrescrito
 
-## type()
+### type()
 
 ````python
 print(__builtins__.type('Olá galera'))  # <class 'str'>
 ````
 
-## print()
+### print()
 
 ````python
 __builtins__.print('Hello Wolrd')  # Hello Wolrd
 ````
 
-## len()
+### len()
 
 ````python
 nome = 'João da Silva'
 print(__builtins__.len(nome)) # 13
 ````
 
-## dir()
+### dir()
 
 
 ````python

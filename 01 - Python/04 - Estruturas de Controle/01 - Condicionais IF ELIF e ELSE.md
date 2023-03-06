@@ -1,6 +1,6 @@
 # Condicionais IF, ELIF e ELSE
 
-## Condicional IF
+### Condicional IF
 
 ````python
 trabalho_terminado = True
@@ -9,7 +9,7 @@ if trabalho_terminado == True:
     print('Bora dar uma saída')
 ````
 
-## Condicional ELSE
+### Condicional ELSE
 
 ````python
 trabalho_terminado = False
@@ -20,7 +20,7 @@ else:
     print('Não vai rolar a saída')
 ````
 
-## Condicional ELIF
+### Condicional ELIF
 
 ````python
 numero_atrasos = 2
@@ -35,7 +35,7 @@ else:
     print('Pode entrar na sala')
 ````
 
-## Operando com um RANGE DE VALORES
+### Operando com um RANGE DE VALORES
 
 
 - A velocidade máxima para essa rua é de 50km/h

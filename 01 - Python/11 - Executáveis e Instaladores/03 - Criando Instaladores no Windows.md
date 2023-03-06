@@ -1,8 +1,8 @@
 # Criando Instaladores no Windows
 
-## 1º Passo - Criar o Executável com a biblioteca cx-Freeze
+### 1º Passo - Criar o Executável com a biblioteca cx-Freeze
 
-## 2º Passo - Baixar o Aplicativo Inno Setup
+### 2º Passo - Baixar o Aplicativo Inno Setup
 
 [Página de Download](https://jrsoftware.org/isdl.php#stable)
 
@@ -10,10 +10,10 @@
 
 ![Versão Estágel](projeto_exemplo/imagens/stable2.png)
 
-## 3º Passo - Instalar o Aplicativo Inno Setup
+### 3º Passo - Instalar o Aplicativo Inno Setup
 
 
-## 4º Passo - Transformar o Executável em um Instalador
+### 4º Passo - Transformar o Executável em um Instalador
 
 ![inno](projeto_exemplo/imagens/inno1.png)
 

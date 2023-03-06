@@ -25,7 +25,7 @@ precos = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140]
 print(precos[::3])  # [10, 40, 70, 100, 130]
 ````
 
-## Maneiras diferentes de se gerar uma lista
+### Maneiras diferentes de se gerar uma lista
 
 ````python
 # Multiplicação de Valores

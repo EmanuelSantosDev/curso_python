@@ -13,6 +13,7 @@ else:
     print('Conexão estabelecida com sucesso!')
 finally:
     print('Encerrando o Programa')
+    
 # Digite um valor: 2
 # Não é possivel dividir por zero
 # Encerrando o Programa

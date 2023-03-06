@@ -2,7 +2,7 @@
 
 
 - **Decorator** é que um método que envolve uma função, modificando o seu comportamento sem precisar alterar o seu código internamente
-- facilita o reuso de código
+- Facilita o reuso de código
 
 
 ````python

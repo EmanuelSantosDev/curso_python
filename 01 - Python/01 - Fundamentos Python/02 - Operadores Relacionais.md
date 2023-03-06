@@ -1,7 +1,7 @@
 # Operadores Relacionais
 
 
-## Comparações Numéricas
+### Comparações Numéricas
 ```python
 idade = 15
 print(idade > 17)  # False
@@ -12,7 +12,7 @@ print(idade == 17)  # False
 print(idade != 17)  # True
 ```
 
-## Comparações Entre Outros Tipos
+### Comparações Entre Outros Tipos
 ```python
 print(True == True)  # True
 print('Rafael' == 'rafael')  # False

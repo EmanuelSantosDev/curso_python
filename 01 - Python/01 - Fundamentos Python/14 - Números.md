@@ -1,33 +1,33 @@
 # Números
 
-## is_integer()
+### is_integer()
 
 ````python
 numero = 2.5
 print(numero.is_integer())  # False
 ````
 
-## isnumeric()
+### isnumeric()
 
 ````python
 print('123'.isnumeric())  # True
 print('12b3'.isnumeric())  # False
 ````
 
-## round()
+### round()
 
 ````python
 print(round(5.7))  # 6
 ````
 
-## abs()
+### abs()
 
 ````python
 x = -2
 print(abs(x))  # 2
 ````
 
-## sum()
+### sum()
 ````python
 # A função ``sum()`` devolve a soma de todos os itens de um iterável
 # é possivel passar também um "start" para a realização da soma

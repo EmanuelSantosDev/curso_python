@@ -10,7 +10,8 @@ print(1.1 + 2.2)  # 3.3000000000000003
 - O módulo ``decimal`` fornece suporte para uma aritmética rápida e corretamente arredondada de números decimais.
 - Em suma, devemos utilizar ``decimal`` quando a precisão é importante.
 
-## Módulo decimal
+
+### Módulo decimal
 
 
 ````python

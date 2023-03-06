@@ -1,6 +1,6 @@
 # Instruções PASS, BREAK e CONTINUE
 
-## Instrução PASS
+### Instrução PASS
 
 
 - Cria um espaço reservado para código futuro
@@ -17,7 +17,7 @@ for numero in range(1, 11):
     pass
 ````
 
-## Instrução CONTINUE
+### Instrução CONTINUE
 
 ````python
 for numero in range(21):
@@ -28,7 +28,7 @@ for numero in range(21):
 # 0 2 4 6 8 10 12 14 16 18 20
 ````
 
-## Instrução BREAK
+### Instrução BREAK
 
 ````python
 for numero in range(100):

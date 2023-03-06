@@ -16,11 +16,12 @@ print(b == c)  # True (estamos comparando a igualdade dos valores)
 ````
 
 
-## Comparando com o Operador de Igualdade
+### Comparando com o Operador de Igualdade
 
-Verifica se dois **VALORES** são **IGUAIS**:
 
 ````python
+# Verifica se dois **VALORES** são **IGUAIS**:
+
 x = 'Emanuel'
 y = 'Emanuel'
 z = 'emanuel'

@@ -22,14 +22,11 @@ with open('pessoas.csv', 'r', encoding='utf-8') as arquivo:
 if arquivo.closed:
     print('Arquivo Fechado')
 
-"""
-Nome: Maria Idade: 45
-Nome: João Idade: 33
-Nome: Pedro Idade: 63
-Nome: Ana Idade: 21
-Nome: Bia Idade: 40
-Nome: Carlos Idade: 14
-
-Arquivo Fechado
-"""
+# Nome: Maria Idade: 45
+# Nome: João Idade: 33
+# Nome: Pedro Idade: 63
+# Nome: Ana Idade: 21
+# Nome: Bia Idade: 40
+# Nome: Carlos Idade: 14
+# Arquivo Fechado
 ````

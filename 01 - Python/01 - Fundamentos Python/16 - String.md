@@ -12,7 +12,7 @@ print(nome[0])  # S
 nome[0] = 'P'  # (TypeError: 'str' object does not support item assignment)
 ````
 
-## Caracteres de Escape
+### Caracteres de Escape
 
 ````python
 # não interpreta as aspas internas
@@ -26,7 +26,7 @@ print('Texto entre apóstrofos pode ter "aspas"')
 # Texto entre apóstrofos pode ter "aspas"
 ````
 
-## Texto com Múltiplas Linhas
+### Texto com Múltiplas Linhas
 
 ````python
 # Forma #1 (aspas triplas)

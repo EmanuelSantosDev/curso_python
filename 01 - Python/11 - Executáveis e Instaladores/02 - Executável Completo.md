@@ -1,10 +1,10 @@
 # Executável Completo
 
-Instalar Biblioteca **cx-Freeze**:
+### Instalar Biblioteca **cx-Freeze**:
 
     pip install cx-freeze
 
-Criar o arquivo **setup.py**:
+### Criar o arquivo **setup.py**:
 
 ```python
 import sys
@@ -35,6 +35,6 @@ setup(
 
 ```
 
-Gerando o Executável:
+### Gerando o Executável:
 
     python setup.py build 

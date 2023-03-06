@@ -6,10 +6,8 @@
 
 
 ````python
-# Exemplo 1
-
-
 internet = 'internet'
+
 try:
     print('Fazendo conexão com a ' + internet)
 except TypeError as erro:
@@ -18,6 +16,7 @@ else:
     print('Conexão estabelecida com sucesso!')
 finally:
     print('Encerrando o Programa')
+
 # Fazendo conexão com a internet
 # Conexão estabelecida com sucesso!
 # Encerrando o Programa
