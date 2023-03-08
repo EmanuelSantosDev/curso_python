@@ -1,7 +1,7 @@
 # Decimal
 
 ````python
-# O cálculo gera um resultado impreciso:
+# O cálculo abaixo gera um resultado impreciso:
 print(1.1 + 2.2)  # 3.3000000000000003
 ````
 
