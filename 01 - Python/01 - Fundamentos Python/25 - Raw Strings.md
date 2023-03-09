@@ -1,21 +1,17 @@
 # Raw Strings
 
+- O ``r`` antes das aspas vem de **raw**, ou seja, a string será interpretada como uma string literal.
+- Em uma string comum, temos a ``\`` como caracter de escape para representar quebras de linha (como ``\n``, ``\r``, ``\t``) e outros. 
+- Em uma string literal, esses elementos não são processados.
+
 ````python
-# Python usa a barra invertida (\) para indicar o início de uma sequência de escape:
 s = 'lang\tver\nPython\t3'
 print(s)
 # lang    ver
 # Python  3
 
 
-# No entanto, raw strings tratam a barra invertida (\) como um caractere literal:
 s = r'lang\tver\nPython\t3'
-print(s)
-# lang\tver\nPython\t3
-
-
-# Uma raw string é como sua string regular com a barra invertida (\) representada como barras invertidas duplas (\\):
-s = 'lang\\tver\\nPython\\t3'
 print(s)
 # lang\tver\nPython\t3
 ````

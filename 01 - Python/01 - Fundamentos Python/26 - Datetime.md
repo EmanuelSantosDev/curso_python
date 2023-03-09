@@ -18,8 +18,9 @@ print(meu_aniversario)  # 2023-06-02 00:00:00
 
 # recebendo os dados de um usuário (strptime transforma STRING para DATETIME)
 data_de_aniversario = datetime.strptime(
-    input('Qual a data do seu aniversário? '), '%d/%m/%Y')
-print(data_de_aniversario)
+    input('Qual a data do seu aniversário? '),
+    '%d/%m/%Y'
+)
 
 
 # calculando o INTERVALO entre duas datas

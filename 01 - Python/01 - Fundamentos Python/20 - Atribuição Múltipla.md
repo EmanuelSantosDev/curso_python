@@ -1,4 +1,4 @@
-# Unpacking
+# Atribuição Múltipla
 
 ````python
 a, b, c, d = 1, 2, 3, 4
@@ -9,10 +9,14 @@ print(c)  # 3
 print(d)  # 4
 
 
-# podemos utilizar o unpacking para trocar os valores entre duas variáveis
+# podemos utilizar a atribuição múltipla para trocar os valores entre duas variáveis
+
+
 x = 20
 y = 50
+
 x, y = y, x
+
 print(x)  # 50
 print(y)  # 20
 ````

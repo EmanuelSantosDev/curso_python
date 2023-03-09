@@ -9,7 +9,7 @@ print(f'{valor}')  # 14599.465773848224
 print(f'{valor:.2f}')  # 14599.47
 
 
-# # Incluindo o Separador de Milhar (,)
+# Incluindo o Separador de Milhar (,)
 print(f'{valor:,.2f}')  # 14,599.47
 
 

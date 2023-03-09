@@ -13,8 +13,8 @@ print(random.random())
 print(random.uniform(4, 10))
 
 
-# gerando uma saída de de VALOR MÍNIMO ao VALOR MÁXIMO com NÚMEROS INTEIROS
-print(round(random.randint(4, 10)))
+# gerando uma saída de VALOR MÍNIMO ao VALOR MÁXIMO com NÚMEROS INTEIROS
+print(random.randint(4, 10))
 
 
 # selecionamento uma opção aleatória dentro de uma LISTA
