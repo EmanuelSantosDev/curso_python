@@ -1,7 +1,7 @@
 # Dicionários
 
 
-- Utiliza o padrão chave:valor
+- Utiliza o padrão ``chave:valor``
 - É indexada através de strings e números (este último pouco recomendado)
 - Utilizados quando precisamos de dados mais estruturados e nomes de propriedades
 

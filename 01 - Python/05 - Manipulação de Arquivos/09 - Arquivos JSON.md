@@ -2,8 +2,8 @@
 
 
 - ``json.load()`` é uma função que lê e decodifica um arquivo JSON e retorna um objeto Python.
-- ``json.dump`` grava os dados JSON em um arquivo ou stream.
-- ``json.dumps`` retorna uma string contendo a representação JSON do objeto Python.
+- ``json.dump()`` grava os dados JSON em um arquivo ou stream.
+- ``json.dumps()`` retorna uma string contendo a representação JSON do objeto Python.
 
 
 ### Lendo um Arquivo JSON

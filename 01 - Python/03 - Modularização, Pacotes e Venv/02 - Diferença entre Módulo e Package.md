@@ -3,7 +3,7 @@
 
 - **MÓDULOS** são arquivos unitários
 - **PACKAGES** são pastas (pacotes) que agrupam vários módulos relacionados
-- eles precisam ter OBRIGATORIAMENTE o arquivo ``__init__.py`` totalmente EM BRANCO
+- O arquivo ``__init__.py`` pode ser vazio ou conter código Python para executar quando o pacote é importado
 - os arquivos ``__init__.py`` são necessários para que o Python trate diretórios contendo o arquivo como pacotes
 
 

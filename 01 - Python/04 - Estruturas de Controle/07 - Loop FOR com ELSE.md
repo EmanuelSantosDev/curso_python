@@ -1,7 +1,8 @@
 # Loop FOR com ELSE
 
-- é útil quando NÃO ENCONTRAMOS dentro do laço FOR o que estamos "procurando"
-- o bloco ELSE será executado somente se o laço FOR não executar a instrução ``break``
+- O loop ``for com else`` é uma construção especial que permite executar um bloco de código caso o loop for seja concluído sem interrupção. 
+- O bloco ``else`` é executado somente se o loop ``for`` for executado completamente, sem a ocorrência de um ``break`` que interrompa a execução.
+- Pode ser útil, por exemplo, quando estamos usando o laço ``for`` para encontrar algo em um iterável, e não encontramos. O bloco ``else`` então pode executar algum procedimento.
 
 ````python
 # sem break

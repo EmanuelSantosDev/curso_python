@@ -10,7 +10,8 @@ arquivo = open('pessoas.csv', encoding='utf-8')
 dados = arquivo.read()
 arquivo.close()
 
-# splitlines() divide uma string em uma lista onde cada linha é um item da lista
+# splitlines() divide uma string em uma lista de substrings com base 
+# nos caracteres de quebra de linha presentes na string
 for registro in dados.splitlines():
     print('Nome: {} Idade: {}'.format(*registro.split(',')))
 

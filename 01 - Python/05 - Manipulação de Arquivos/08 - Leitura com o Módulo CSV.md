@@ -11,6 +11,7 @@ with open('pessoas.csv', encoding="utf-8") as arquivo:
 if arquivo.close:
     print('Arquivo Fechado')
 
+# ['Maria', '45']
 # Nome: Maria, Idade = 45
 # ['João', '33']
 # Nome: João, Idade = 33

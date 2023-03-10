@@ -54,7 +54,7 @@ print(pessoa_mais_velha)  # {'nome': 'David', 'idade': 35}
 
 
 ````python
-# Em ambos os casos utilizandos o operador '+' para unir as coleções:
+# Em ambos os casos utilizamos o operador '+' para unir as coleções:
 
 
 # Exemplo 1 (numero mais alto)

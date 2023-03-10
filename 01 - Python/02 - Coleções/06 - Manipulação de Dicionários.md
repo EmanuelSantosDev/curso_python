@@ -4,8 +4,7 @@
 # manipulação de listas dentro de dicionários
 professor = {'nome': 'Alberto', 'idade': 42, 'cursos': ['React', 'Python']}
 professor['cursos'].append('JavaScript')
-print(professor) 
-# {'nome': 'Alberto', 'idade': 42, 'cursos': ['React', 'Python', 'JavaScript']}
+print(professor)   # {'nome': 'Alberto', 'idade': 42, 'cursos': ['React', 'Python', 'JavaScript']}
 
 
 # adicionando novos items ao dicionário
@@ -17,10 +16,8 @@ print(professor)
 
 # lendo um dicionário e deletando items
 item_removido = professor.pop('idade')
-print(item_removido)
-# 42
-print(professor)
-# {'nome': 'Alberto', 'cursos': ['React', 'Python', 'JavaScript']}
+print(item_removido)  # 42
+print(professor)  # {'nome': 'Alberto', 'cursos': ['React', 'Python', 'JavaScript']}
 
 
 # deletando items
