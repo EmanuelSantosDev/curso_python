@@ -57,8 +57,7 @@ lista_contar.clear()
 print(lista_contar)  # []
 
 
-# all() retorna True se todos os itens em um iterável 
-# forem verdadeiros, caso contrário, retorna False.
+# all() retorna True se TODOS os itens em um iterável forem True
 letras = ['a', 'b', 'c']
 todos_iguais = all(letra == letras[0] for letra in letras)
 print(todos_iguais)  # False

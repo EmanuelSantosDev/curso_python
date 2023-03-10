@@ -15,7 +15,7 @@ precos = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140]
 print(precos[-1])  # 140
 
 
-# acessando um range de elementos
+# acessando um intervalo de elementos
 precos = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140]
 print(precos[2:5])  # [30, 40, 50]
 
