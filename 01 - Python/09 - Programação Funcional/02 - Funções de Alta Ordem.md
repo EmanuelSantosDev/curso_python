@@ -33,17 +33,17 @@ processar('Dobros de 1 a 10', range(1, 11), dobro)
 # 9 => 18
 # 10 => 20
 
-processar('Quadrado de 1 a 10', range(1, 11), dobro)
+processar('Quadrado de 1 a 10', range(1, 11), quadrado)
 
 # Processando: Quadrado de 1 a 10
-# 1 => 2
+# 1 => 1
 # 2 => 4
-# 3 => 6
-# 4 => 8
-# 5 => 10
-# 6 => 12
-# 7 => 14
-# 8 => 16
-# 9 => 18
-# 10 => 20
+# 3 => 9
+# 4 => 16
+# 5 => 25
+# 6 => 36
+# 7 => 49
+# 8 => 64
+# 9 => 81
+# 10 => 100
 ````

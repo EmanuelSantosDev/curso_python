@@ -1,7 +1,7 @@
 # Classe Exception
 
 
-Útil para capturar uma excessão ainda não tratada em nosso programa
+Útil para capturar uma excessão ainda não tratada em nosso programa.
 
 
 ````python

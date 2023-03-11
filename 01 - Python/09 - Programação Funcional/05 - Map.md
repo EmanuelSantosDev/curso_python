@@ -6,6 +6,6 @@ A função ``map()`` permite aplicar uma função a cada elemento de uma sequên
 
 ````python
 numeros = [1, 2, 3, 4, 5]
-quadrados = map(lambda x: x*2, numeros)
+quadrados = map(lambda x: x * 2, numeros)
 print(list(quadrados))  # [2, 4, 6, 8, 10]
 ````

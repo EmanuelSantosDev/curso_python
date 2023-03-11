@@ -1,7 +1,7 @@
 # Decorators
 
 
-- **Decorator** é que um método que envolve uma função, modificando o seu comportamento sem precisar alterar o seu código internamente
+- **Decorator** é um método que envolve uma função, modificando o seu comportamento sem precisar alterar o seu código internamente
 - Facilita o reuso de código
 
 
