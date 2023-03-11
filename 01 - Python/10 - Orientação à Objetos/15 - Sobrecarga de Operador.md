@@ -22,3 +22,11 @@ objeto2 = MinhaClasse(20)
 soma = objeto1 + objeto2
 print(soma)  # 30
 ````
+
+
+No exemplo acima o método ``__add__`` recebe dois objetos como parâmetros, ``self`` e ``outro``. Ele soma o valor do objeto ``self`` com o valor do objeto ``outro`` e retorna um novo objeto da classe ``MeuNumero`` contendo o resultado da ``soma``. Na verdade estará executando algo como:
+
+
+````python
+soma = objeto1.__add__(objeto2)
+````

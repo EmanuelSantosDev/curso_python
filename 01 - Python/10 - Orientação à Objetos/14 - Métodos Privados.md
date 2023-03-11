@@ -6,19 +6,21 @@
 
 ````python
 class MinhaClasse:
-    
     def __init__(self, valor):
-        self._valor = valor
-        
-    def _metodo_privado(self):
-        print("Este é um método privado.")
-        
+        self.__valor = valor  # atributo privado iniciado com valor passado no construtor
+
+    def __metodo_privado(self):
+        print("Este é um método privado!")
+
     def metodo_publico(self):
-        print("Este é um método público.")
-        self._metodo_privado()
+        print("Este é um método público!")
+        self.__metodo_privado()  # método privado é chamado dentro do método público
 
 
-objeto = MinhaClasse(42)
-objeto._metodo_privado()  # imprime "Este é um método privado."
+objeto = MinhaClasse(10)
+# chamando o método público, que internamente chama o método privado
+objeto.metodo_publico()
 
+# Este é um método público!
+# Este é um método privado!
 ````

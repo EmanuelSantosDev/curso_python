@@ -1,5 +1,9 @@
 # Método \_\_str\_\_
 
+
+O método especial ``__str__`` é usado para retornar uma representação em string de um objeto.
+
+
 ````python
 class Data:
     def __str__(self):

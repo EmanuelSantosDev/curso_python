@@ -2,7 +2,7 @@
 
 
 - *Herança Multinível* é quando uma classe filha (subclasse) herda de uma classe pai (superclasse), que por sua vez herda de outra classe pai, e assim por diante. 
-- Devemos evitá-la, pois pode tornar o código completo e dificil de interpretar:
+- Devemos evitá-la, pois pode tornar o código complexo e dificil de interpretar.
 
 
 ````python
